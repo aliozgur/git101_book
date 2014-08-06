@@ -1,6 +1,6 @@
 # Git 101
 
-Bu kitapta oldkça popüler olan ve teknik açıdan çok başarılı olduğunu düşündüğüm Git'i Sürüm Kontrol Sistemi (Version Control System) özellikle yeni başlayanlar için kısa kısa bölümler ve örnekler ile tanıtmaya çalışacağım.
+Bu kitapta son dönemde yazılım geliştirme çevrelerinde oldukça popüler hale gelen ve teknik açıdan çok başarılı olduğunu düşündüğüm Git Dağıtık Versiyon Kontrol Sistemini (Distributed Version Control System) örnekler ile ele alarak size tanıtmaya çalışacağım.
 
 # İngilizce Terimler
 
