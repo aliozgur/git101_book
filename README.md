@@ -4,10 +4,10 @@ Bu kitapta oldkça popüler olan ve teknik açıdan çok başarılı olduğunu d
 
 # İngilizce Terimler
 
-Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilgili kaynaklar ağırlıklı olarak İngilizce. Terminoloji anlamında Türkçe bir kitap hazırlamanın en büyük zorluğu İngilizce terimlere Türkçe uygun karşılık bulmaktır. Ancak **Git 101** kitabında İnglizce -> Türkçe geçişini birebir yapmayacağım, mümkün olduğu kadar Sürüm Kontrolü ve Git ile ilgili termilerin İnglizce hallerini kullanacağım. Bu yaklaşımın aşağıdaki iki gerekçe nedeni ile daha faydalı olacağını düşünüyorum
+Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilgili kaynaklar ağırlıklı olarak İngilizce. Terminoloji anlamında Türkçe bir kitap hazırlamanın en büyük zorluğu İngilizce terimlere Türkçe uygun karşılık bulmaktır. Ancak **Git 101** kitabında İnglizce -> Türkçe geçişini birebir yapmayacağım, mümkün olduğu kadar Sürüm Kontrolü ve Git ile ilgili terimlerin İnglizce hallerini kullanmak için özen göstereceğim. Böylece
 
-* Uluslar arası ekipler ve özellikle açık kaynak projelerde ortak dil İnglizce olduğu için Git ile ilgili İnglizce terminolojiyi bilmeniz İnglizce bilmeseniz bile zorunlu olacaktır
-* TODO..
+* İnglizce->Türkçe geçişinde terimlerin anlamını yitirmesine neden olmadan
+* Uluslar arası ekipler ve özellikle açık kaynak projelerde ortak dil İnglizce olduğu için Git ile ilgili İngilizce terminolojiye aşina olmanıza aracı olmayı hedefliyorum
 
 
 # Konuların Dizilimi
