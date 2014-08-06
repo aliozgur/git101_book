@@ -12,4 +12,4 @@ Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilg
 
 # Konuların Dizilimi
 
-Konuların diziliminde [Learn Version Control with Git](http://www.git-tower.com/learn/ebook/command-line/introduction  "Learn Version Control with Git") kitabının çevrimiçi versiyonu temel alınmıştır. Belirtilen kaynaktaki başlıklara ilave olarak daha ayrıntılı bir kitap olan [Pro Git](http://git-scm.com/book "Pro Git") kitabından konular da **Git 101** kitabına ekledik.
+Konuların diziliminde ağırlıklı olarak [Learn Version Control with Git](http://www.git-tower.com/learn/ebook/command-line/introduction  "Learn Version Control with Git") kitabının çevrimiçi versiyonu temel alınmıştır. Belirtilen kaynaktaki başlıklara ilave olarak daha ayrıntılı bir kitap olan [Pro Git](http://git-scm.com/book "Pro Git") kitabından konular da **Git 101** kitabına ekledik.
