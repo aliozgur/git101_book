@@ -2,7 +2,7 @@
 
 Bu bölümde aşağıdaki konuları ele alacağız
 * Versiyon kontrolü nedir?
-* Neden versiyon kontrolüne ihtiyacımız var?
+* Versiyon Kontrolüne Neden İhtiyacımız Var??
 * Git kurulumu
 * Basit iş akışı
 * Versiyon takibinde olmayan yeni bir proje oluşturmak
