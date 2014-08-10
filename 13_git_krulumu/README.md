@@ -13,7 +13,7 @@ Git ile çalışırken görsel arayüzü olan bir uygulama kullanmanız üretken
 Git'in kurulumu hem Windows hem de OS X için oldukça kolay bir işlemdir. Her iki işletim sistemi için tek tıklama ile kurulum yapmanızı sağlayan kurulum programları vardır.
 
 ### Windows
-İşletim sisteminiz Windows git ile çalışmak için "msysgit" paketini kullanabilirsiniz.
+İşletim sisteminiz Windows ise git ile çalışmak için "msysgit" paketini kullanabilirsiniz.
 
 **msysgit** paketini kurmak için [http://msysgit.github.io/](http://msysgit.github.io/) adresinden kurulum uygulamasını indirip çalıştırmalısınız. Kurulum adımları sırasında karşınıza çıkacak olan ekranlarda varsayılan ayarları seçili olarak bırakarak kurulumunuzu tamamlayabilirsiniz.
 
