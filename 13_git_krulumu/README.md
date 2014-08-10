@@ -102,7 +102,7 @@ Bu işlemi göz ile yapmak zorunda kalmadan dosyalar arasındaki farkları (asl�
 OS X platformunda ben şahsen açık kaynak olan **diffmerge** isimli uygulamayı kullanmayı tercih ediyorum. Git'in diff tool'u olarak **diffmerge**'i kullanmasını sağlamak için
 > git config --global merge.tool diffmerge
 
-komutunu kullanabilirsiniz. Diffmerge'in OS X'de tam olarak ayarlanması için gerekli yönergelere [bu adresten] göz atabilirsiniz.
+komutunu kullanabilirsiniz. Diffmerge'in OS X'de tam olarak ayarlanması için gerekli yönergelere [bu adresten](http://twobitlabs.com/2011/08/install-diffmerge-git-mac-os-x/) göz atabilirsiniz.
 
 Windows işletim sisteminde ise yine açık kaynak olan [WinMerge](http://winmerge.org/downloads/) uygulamasını veya ücretli bir araç olan [Araxis Merge'i](http://www.araxis.com/merge/download.en) kullanabilirsiniz. Bu araçların git ayarlarının nasıl yapılacağını yardım dokümanlarından faydalanarak öğrenebilirsiniz.
 
