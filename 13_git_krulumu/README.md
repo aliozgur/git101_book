@@ -47,9 +47,64 @@ Git ayarlarınız aşağıda belirtilen üç konumda kayıt altında tutulmaktad
 
 Git ayarlarınızın değerini belirlemek için bu üç konumdaki dosyaları 3. seviye, 2. seviye ve 1. seviye sıralaması ile okur. Ayar'a ilişkin değere ilk hangi seviyede rastlandıysa o seviyedeki değer dikkate alınır diğer seviyelerdeki değerler dikkate alınmaz.
 
+Windows işletim sisteminde global (**git config --global** komutu) git ayarlarınız Windows'un $HOME klasörü altında yer alan (genellikle C:\Documents and Settings\$USER) **.config** dosyasında kayıt altına alınır. Proje seviyesindeki ayarlarınız ise OS X'de olduğu gibi **[Projenizin Ana Klasörü]\.git\config** dosyasında kayıt altına alınır.
 
-### Kullanıcı Adı ve E-mail ayarı
+### Kullanıcı adınızı ve email bilgisi
 
+Git ayarlarından en önemli olanlarından bir tanesi de kullanıcı adınızın ve email adresinizdir. Git bu ayarlar ile sağladığınız değerleri **commit** vb işlemleri gerçekleştirirken otomatik olarak kullanır. Bu ayarları yapmak için komut satırınızda aşağıdaki komutları çalıştırmalısınız
+> * git config --global user.name "ali özgür"
+> * git config --global user.email "ali.ozgur@example.com"
+
+Yukarıdaki komutlarda **git config --global** kısmı ile git'e global ayarları düzenlediğinizi ifade ediyorsunuz **user.name** (user.email aynı zamanda) ise değerini değiştirmek istediğiniz anahtar'ı belirterek ardından da çift tırnak içinde ilgili anakhtarın değerini giriyorsunuz.
+
+Bu değerleri **--global** ibaresi ile tüm projeleriniz için geçerli olacak şekilde yapıyoruz, proje seviyesinde bu ayarları yapmak için komut satırında projesinizi klasörüne giderek **git config user.name "ali özgür"** komutu ile --global değerini kullanmadan yapabilirsiniz.
+
+Herhangi bir seviyede ayarlarınızın değeri görmek için aşağıdaki komutları kullanabilirsiniz.
+
+* Global seviyede tüm ayarlarınızı listelemek için
+> **git config --global -l** komutunu
+* Global seviyede tek bir ayarın değerini görmek için ise
+> **git config --global user.name** komutunu kullanabilirsiniz.
+
+<div style="background-color:rgb(247,248,250); padding:10px; marign:10px; border:1px solid darkgrey">
+    <p style="font-weight:bold">İPUCU</p>
+    <p>git'in komutları ve bu komutların parametreleri ile ilgili yardım almak istediğinizde
+        <ul>
+            <li>git [komut adı] --help</li>
+            <li>git help [komut adı]</li>
+        </ul>
+    komutlarını kullanabilirsiniz.
+    </p>
+</div>
+
+### Editör ayarı
+Git'in bazı komutları sizden interaktif olarak yorum veya bilgi girmenizi isteyebilir. Bu tür durumlar için git'in hangi metin editörünü kullanmasını istediğinizi ayarlayabilirsiniz. Varsayılan olarak git Vi veya Vim editörlerini kullanır. Ancak bu editörler özellikle başlangıç seviyesindeki kullanıcılar için kullanımı zor olabilir. Ben, Vi veya Vim ile karşılaştırıldığında kullanımının daha kolay olduğunu düşündüğüm için **GNU Midnight Commander (MC)** kullanmanızı öneriyorum.
+
+Midnight Commander'i [Homebrew](http://brew.sh/) ile
+> brew install midnight-commander
+
+komutu ile kurabilirsiniz.
+
+Midnight Commander veya git'i destekleyen herhangi bir editör uygulamanızın kurulumunu tamamladıktan sonra
+
+> git config --global core.editor mcedit
+
+komutu ile git'in kullanacağı edtör ayarınızı yapabilirsiniz.
+
+### Diff aracı ayarları
+
+Diff kavramını kitabın ilerleyen bölümlerinde daha ayrıntılı ele alacağız, ancak kısaca değinmek gerekirse
+
+> Bir dosyanın T1 anındaki içeriği ile Tx anındaki içeriğinin arasındaki farkları tespit etme ve gösterme işlemine **diff** denilir
+
+Bu işlemi göz ile yapmak zorunda kalmadan dosyalar arasındaki farkları (aslında sadece dosyalar değil klasörler arasındaki farkları da ele alabliriz) tespit etmek ve görselleştirmek için kullanılan araçlara genel olarak Diff Araçları ismi verilir.
+
+OS X platformunda ben şahsen açık kaynak olan **diffmerge** isimli uygulamayı kullanmayı tercih ediyorum. Git'in diff tool'u olarak **diffmerge**'i kullanmasını sağlamak için
+> git config --global merge.tool diffmerge
+
+komutunu kullanabilirsiniz. Diffmerge'in OS X'de tam olarak ayarlanması için gerekli yönergelere [bu adresten] göz atabilirsiniz.
+
+Windows işletim sisteminde ise yine açık kaynak olan [WinMerge](http://winmerge.org/downloads/) uygulamasını veya ücretli bir araç olan [Araxis Merge'i](http://www.araxis.com/merge/download.en) kullanabilirsiniz. Bu araçların git ayarlarının nasıl yapılacağını yardım dokümanlarından faydalanarak öğrenebilirsiniz.
 
 
 
