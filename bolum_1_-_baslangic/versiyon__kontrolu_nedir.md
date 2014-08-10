@@ -4,7 +4,7 @@ Versiyon kontrolü nedir ve bizi neden ilgilendirmeli? Versiyon kontrolünü bir
 
 Bu sistemleri kullanarak herhangi bir anda üzerinde çalıştığınız dosyaların o anki hallerini kaydedebilir, daha sonra da isterseniz bu dosyaların kaydedilmiş ve kontrol altına alınmış herhangi bir haline geri dönebilirsiniz.
 
-> Dosyaların kayıt altına alınmış herhangi bir andaki hallerine **versiyon** diyoruz)
+> Dosyaların kayıt altına alınmış herhangi bir andaki hallerine **versiyon** diyoruz
 
 
 ![Versiyon Kontrolü Nedir?](./what-is-vcs.png "Title")
