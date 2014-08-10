@@ -6,5 +6,6 @@
    * [Versiyon Kontrolüne Neden İhtiyacımız Var?](bolum_1_-_baslangic/neden_versiyon_kontrolune_ihtiyacimiz_var.md)
    * [Git İle Çalışmaya Başlamak](13_git_krulumu/README.md)
    * [Basit Anlamda Versiyon Kontrolü İş Akışı](bolum_1_-_baslangic/basit_anlamda_versiyon_kontrolu_is_akisi.md)
-   * [Yeni bir proje oluşturmak](bolum_1_-_baslangic/yeni_bir_proje_olusturmak.md)
+   * [Local bir proje oluşturmak](bolum_1_-_baslangic/yeni_bir_proje_olusturmak.md)
+   * [Remote bir proje oluşturmak](bolum_1_-_baslangic/remote_bir_proje_olusturmak.md)
 
