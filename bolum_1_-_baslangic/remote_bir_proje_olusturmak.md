@@ -18,7 +18,7 @@ Remote repository'nizin adresini ve erişim için gerekli kullanıcı adınızı
 
 ![Boş Klasör Oluşturma](./01_emptyprojectdir.png "Boş Klasör Oluşturma")
 
-Yukarıdaki ekran görüntüsünde yer alan ilk olan **cd** komutu ile proje klasörümü oluşturacağım ana klasör olan **Projects** klasörüne konumlanıyoruz. İkinci komut olan **mkdir** ile proje klasörümüz olan **git101_kitap** klasörünü oluşturuyoruz. Üçüncü komutumuz ile de yeni oluşturduğumuz **git101_kitap** klasörüne konumlanıyoruz.
+Yukarıdaki ekran görüntüsünde yer alan ilk **cd** komutu ile proje klasörümün içinde yer alacağı ana klasör olan **Projects** klasörüne konumlanıyoruz. İkinci komut olan **mkdir** ile proje klasörümüz olan **git101_kitap** klasörünü oluşturuyoruz. Üçüncü komutumuz ile de yeni oluşturduğumuz **git101_kitap** klasörüne konumlanıyoruz.
 
 Yerel diskimizde boş proje klasörümüzü oluştruduğumuza göre şimdi remote repository'mizi yerel klasörümüze **git clone** komutu ile indirebiliriz.
 

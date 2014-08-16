@@ -7,4 +7,4 @@ Bu bölümde aşağıdaki konuları ele alacağız
 * Basit Anlamda Versiyon Kontrolü İş Akışı
 * Local Bir Proje Oluşturmak
 * Remote Bir Proje Oluşturmak
-* Versiyon takibindeki projeniz üzerinde çalışmak
+* Projemiz Üzerinde Çalışmaya Başlayalım
