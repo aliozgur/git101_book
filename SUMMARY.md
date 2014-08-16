@@ -7,5 +7,5 @@
    * [Git İle Çalışmaya Başlamak](13_git_krulumu/README.md)
    * [Basit Anlamda Versiyon Kontrolü İş Akışı](bolum_1_-_baslangic/basit_anlamda_versiyon_kontrolu_is_akisi.md)
    * [Local bir proje oluşturmak](bolum_1_-_baslangic/yeni_bir_proje_olusturmak.md)
-   * [Remote bir proje oluşturmak](bolum_1_-_baslangic/remote_bir_proje_olusturmak.md)
+   * [Remote  bir proje oluşturmak](bolum_1_-_baslangic/remote_bir_proje_olusturmak.md)
 

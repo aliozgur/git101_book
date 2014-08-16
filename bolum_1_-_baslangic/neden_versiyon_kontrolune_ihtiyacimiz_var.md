@@ -1,4 +1,4 @@
-# Versiyon Kontrolüne Neden İhtiyacımız Var?
+# 1.2. Versiyon Kontrolüne Neden İhtiyacımız Var?
 Versiyon kontrol sistemi kullanmanın bir çok faydası vardır. Bu bölümde versiyon kontrol sistemlerinin sağladığı avantajlardan bazılarını ele alıyoruz.
 
 ## Uyumlu ekip çalışması

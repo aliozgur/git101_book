@@ -5,6 +5,6 @@ Bu bölümde aşağıdaki konuları ele alacağız
 * Versiyon Kontrolüne Neden İhtiyacımız Var??
 * Git İle Çalışmaya Başlamak
 * Basit Anlamda Versiyon Kontrolü İş Akışı
-* Yeni bir proje oluşturmak
-* Devam eden ve versiyon takibi yapılan bir projeye dahil olmak
+* Local Bir Proje Oluşturmak
+* Remote Bir Proje Oluşturmak
 * Versiyon takibindeki projeniz üzerinde çalışmak

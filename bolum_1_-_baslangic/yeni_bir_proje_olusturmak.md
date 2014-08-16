@@ -1,4 +1,4 @@
-# 1.5 Local (yerel) bir proje oluşturmak
+# 1.5 Local bir proje oluşturmak
 Henüz version kontrolü altında olmayan bir projenizi versiyon kontrolü altına almak için *git init* komutunu kullanmalıyız. Bu işlemi gerçekleştirmek için OS X'de Terminal uygulamasını Windows'da ise Git Bash'i açarak aşağıdaki komutları yazmanız gerekiyor
 
     $ cd proje/klasörünüzün/yolu/
@@ -33,7 +33,7 @@ Versiyon kontrolü altına almak istemediğiniz dosyla ve klasörleri tanımlama
 * Tanımladığınız bir kuralın tersini ! işareti ile tanımlayabilirsiniz. Örneğin *!/projemin/kaynak/kodu/* şeklinde bir tanım yapıldığında belirtilen klasör dışındaki tüm klasör ve dosyalar git tarafından göz ardı edilecektir.
 
 ## İlk commitimiz
-Projemizi versiyon kontrolü altına alıp git'e göz ardı etmesini istediğimiz klasör ve dosyaları tarif ettikten sonra aşağıdaki komutar ile ilk commit'imizi yapabiliriz
+Projemizi versiyon kontrolü altına alıp versiyon kontrolüne girmesini istemediğimiz klasör ve dosyaları belirledikten sonra aşağıdaki komutar ile ilk commit'imizi yapabiliriz
 
     $ git add -A
     $ git commit -m "İlk commit işlemimizi yaptık"
