@@ -9,10 +9,11 @@ Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilg
 * İnglizce->Türkçe geçişinde terimlerin anlamını yitirmesine neden olmadan
 * Uluslar arası ekipler ve özellikle açık kaynak projelerde ortak dil İnglizce olduğu için Git ile ilgili terminolojiyle tanışmanızı sağlamak istiyorum
 
-
+<!--
 # Konuların Dizilimi
 
 Konuların diziliminde ağırlıklı olarak [Learn Version Control with Git](http://www.git-tower.com/learn/ebook/command-line/introduction  "Learn Version Control with Git") kitabının çevrimiçi versiyonu temel alınacak. Belirtilen kaynaktaki başlıklara ve içeriğie ilave olarak daha ayrıntılı bir kitap olan [Pro Git](http://git-scm.com/book "Pro Git") kitabından da faydalanacağız.
+-->
 
 # Örnekler
 
