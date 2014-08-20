@@ -60,16 +60,51 @@ Benzer şekilde aşağıdaki **git rm** komutu ile **ornek2.md** dosyasının bi
 > $ **git rm** ornek2.md
 
 ## Değişikliklerimizi Commit Edelim
-Değişikliklerinizi *git add* ve *git rm* ile Staging Area'ya aldıktan sonra **git commit** komutu ile yeni bir versiyon olarak kayıt altına alabilirsiniz.
+Değişikliklerinizi **git add** ve **git rm** ile Staging Area'ya aldıktan sonra **git commit** komutu ile yeni bir versiyon olarak kayıt altına alabilirsiniz.
 
 > $ **git commit** -m "1.7 numaralı alt başlık içeriği tamamlandı"
 
-Yukarıdaki komutta yer alan **-m** parametresi komutun commit mesajı ile birlikte oluşturulmasını sağlar. Eğer birden fazla satırı olan bir commit mesajı gireceksiniz **-m** parametresini kaldırmanız yeterli olacaktır. Bu durumda 1.3 numaralı bölümde ayarladığınız editör açılır ve bu editör'e mesajınızı istediğimiz uzunlukta girebilirsiniz.
+Yukarıdaki komutta yer alan **-m** parametresi ile yaptığınız değişiklikleri özetleyen bir mesajı da commit'inize ekleyebilirsiniz. Eğer birden fazla satırı olan bir commit mesajı gireceksiniz **-m** parametresini kaldırmanız yeterli olacaktır. Bu durumda 1.3 numaralı bölümde ayarladığınız editör açılır ve bu editör'e mesajınızı istediğimiz uzunlukta girebilirsiniz.
 
 <div style="padding:10px;border:1px solid #fcedd7;background-color:#fef9f1">
 <p style="color:darkgray">Versyon Kontrolünün Altın Kuralları</p>
 <p style="font-weight:bold">#2 Anlamlı Commit Mesajları<p>
 <p>
-Commit işlemi sırasında yazacağınız dengeli ve bilgilendirici bir commit mesajı hem ekibinizdeki diğer kişilerin hem de daha sonra sizin kendinzin yapılan değişikliği daha rahat ve hızlı anlamanızı sağlayacaktır. Commit mesajınıza kısa bir özet satırı yazdıktan sonra bir sonraki satırda da değişikliğin nedeni ve içeriği hakkında bilgi veriniz.
+Commit işlemi sırasında yazacağınız bilgilendirici bir mesaj hem ekibinizdeki diğer kişilerin hem de daha sonra kendinzin yapılan değişikliği daha rahat ve hızlı anlamanızı sağlayacaktır. Mesajınıza kısa bir özet satırı yazdıktan sonra bir sonraki satırda da değişikliğin nedeni ve içeriği hakkında bilgi verebilirsiniz.
 </p>
 </div>
+
+### İyi Bir Commit Nasıl Olmalı?
+
+1. Commit'inizde sadece kavramsal olarak ilişkili değişiklikleri içermeye özen göstermelisiniz. Zaman zaman iki farklı konu veya sorun ile ilgili aynı anda veya çok kısa aralıklarla değişimli olarak çalışmak zorunda kalabilirsiniz. Bu şekilde yapılan bir çalışma sonrasında commit zamanı geldiğinde mümkün ise iki konu ile ilgili değişikliklerinizi bir defada commit etmek yerine iki defada ayrı ayrı commit edin. Bu çok zor oluyorsa kısa yoldan bir anda tek bir değişikliğe odaklanmayı da düşünebilirsiniz.
+2. Tamamlanmamış değişikliklerinizi kesinlikle commit etmemeye özen gösterin. Eğer zaman zaman değişikliklerinizi kayıt altına almak isytiyorsanız commit işlemi yerine Git'in **Stash** özelliğini/komutunu kullanabilirsiniz.
+3. Test edilmemiş değişiklikleri commit etmemeye özen gösterin. Bu öneri aslında bir önceki önerimiz ile pratikte aynı anlama geliyor
+4. Commit'leriniz kısa ve açıklayıcı mesajlar içermeli.
+5. Son olarak da sık sık commit işlemi yapmayı alışkanlık haline getirmenizi önerebiliriz. Bu alışkanlık ile birlikte yukarıdaki maddeleri de yerine getirebilirseniz iş yapma şekliniz ve konsantrasyonunuz da olumlu yönde etkilenecektir.
+
+## Commit Tarihçesi
+
+Git projeniz üzerinde çalıştığınız her anda yaptığınız commit işlemlerini kayıt altına almaktadır. Özellikle ekip çalışması söz konusu ise commit işlemleri ile ilgili git tarafından kayıt altına alınan bu bilgiler daha da önem kazanmaktadır.
+
+Git'in commitleriniz ile ilgili kayıt altına aldığı tarihsel bilgileri görmek için **git log** komutunu kullanıyoruz. BU komut tüm commitler ile ilgili bilgileri, en son commit en üstte olacak şekilde, tarihsel olarak sıralar. Eğer Terminal pencerenize sığımayacak kadar çok tarihsel kayıt var ise son satırda **:** simgesi yer alacaktır, klavyenizden **SPACE/BOŞLUK** tuşuna basarak bir sonraki sayfanın listelenmesini **q** tuşuna basarak da listelemenin sonlandırılmasını sağlayabilirsiniz.
+
+![Commit Tarihçesi](./04_gitlog.png "Commit Tarihçesi")
+
+Terminal'de listelenen her commit tarihçesi kaydı, diğer bilgilerin yanısıra, aşağıdaki temel bilgileri içerir
+
+* Commit'in Hash değeri
+* Commit'i gerçekleştiren kişinin adı ve email'i
+* Commit tarihi
+* Commit mesajı
+
+> **Commit Hash** : Her bir commit'in benzersiz ve tek bir tanımlayıcı değeri vardır. Bu değer git tarafından commit'e dahil olan tüm değişiklikleriniz ve commit'in kendisi ile ilgili bilgiler de kullanılarak otomatik hesaplanır. Genel olarak git'in listelemelerinde ve bazı komutların parametresi olarak bu değerin ilk 7 karakterinin kullanılması yeterlidir. Çünkü bu ilk 7 karakterin de nerdeyse benzersiz ve tekil olduğunu söyleyebiliriz.
+
+git log komutu ile birlikte commit işlemi ile ilgili bilgilendirici çoğu bilgiyi görmekle birlikte parametre olarak **-p** değerini kullanırsanız dosyalarda yapılan değişiklikler de ayrıntılı olarak lsitelenecektir.
+
+![Commit Tarihçesi Değişiklik Ayrıntıları](./05_gitlog_p.png "Commit Tarihçesi Değişiklik Ayrıntıları")
+
+Kitabımızın ilerleyen bölümlerinde **git log -p** komutu ile gördüğümüz bilgileri nasıl yorumlayacağımızı ayrıntılı olarak ele alacağız.
+
+
+
+
