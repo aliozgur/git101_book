@@ -9,4 +9,5 @@
    * [Local bir proje oluşturmak](bolum_1_-_baslangic/yeni_bir_proje_olusturmak.md)
    * [Remote  bir proje oluşturmak](bolum_1_-_baslangic/remote_bir_proje_olusturmak.md)
    * [Projemiz Üzerinde Çalışmaya Başlayalım](bolum_1_-_baslangic/projeniz_uzerinde_calismaya_baslayalim.md)
+* [Branching (Dallanma) ve Merging (Birleştirme)](branching_dallanma_ve_merging_birlestirme/README.md)
 
