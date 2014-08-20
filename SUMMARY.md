@@ -10,4 +10,6 @@
    * [Remote  bir proje oluşturmak](bolum_1_-_baslangic/remote_bir_proje_olusturmak.md)
    * [Projemiz Üzerinde Çalışmaya Başlayalım](bolum_1_-_baslangic/projeniz_uzerinde_calismaya_baslayalim.md)
 * [Branching (Dallanma) ve Merging (Birleştirme)](branching_dallanma_ve_merging_birlestirme/README.md)
+   * [Branching Çalışma Şeklinizi Değiştirebilir](branching_dallanma_ve_merging_birlestirme/branching_nedir,_ne_ise_yarar.md)
+   * [Branch'ler İle Çalışmak](branching_dallanma_ve_merging_birlestirme/branchler_ile_calismak.md)
 

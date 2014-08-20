@@ -21,7 +21,7 @@ Ancak git'de değişikliklerinizin kayıt altına alındığı üçüncü bir al
 
 <div style="padding:10px;border:1px solid #fcedd7;background-color:#fef9f1">
 <p style="color:darkgray">Versyon Kontrolünün Altın Kuralları</p>
-<p style="font-weight:bold">#1 Sadece Birbiri İle Alakalı Değişiklikleri Commit Edin<p>
+<p style="font-weight:bold">#1 Sadece Birbiri İle Alakalı Değişiklikleri Commit Edin</p>
 <p>
 Değişikliklerinizi commit etmeye karar verdiğinizde birbiri ile alakalı değişiklikleri tek bir commit olarak ele almaya özen gösterin. Birbiri ile alakalı olmayan değişiklikleri aynı commit ile versiyon kontrol sisteminde kayıt altına aldığınızda aşağıdakilere benzer sorunlar yaşama ihtimaliniz artacaktır
 <ul>
@@ -68,7 +68,7 @@ Yukarıdaki komutta yer alan **-m** parametresi ile yaptığınız değişiklikl
 
 <div style="padding:10px;border:1px solid #fcedd7;background-color:#fef9f1">
 <p style="color:darkgray">Versyon Kontrolünün Altın Kuralları</p>
-<p style="font-weight:bold">#2 Anlamlı Commit Mesajları<p>
+<p style="font-weight:bold">#2 Anlamlı Commit Mesajları</p>
 <p>
 Commit işlemi sırasında yazacağınız bilgilendirici bir mesaj hem ekibinizdeki diğer kişilerin hem de daha sonra kendinzin yapılan değişikliği daha rahat ve hızlı anlamanızı sağlayacaktır. Mesajınıza kısa bir özet satırı yazdıktan sonra bir sonraki satırda da değişikliğin nedeni ve içeriği hakkında bilgi verebilirsiniz.
 </p>
