@@ -1,4 +1,6 @@
-# Önsöz
+# Türkçe Git 101
+
+## Önsöz
 
 Bu kitapta son 4-5 yılda yazılım geliştiricilerin ve yazılım şirketlerinin vazgeçilmez araçlarından olan ve benim de bir yazılım geliştirici ve yazılım ekip yöneticisi olarak çok başarılı bulduğum Git Dağıtık Versiyon Kontrol Sistemini (Distributed Version Control System) örnekler ile ele alarak size tanıtmaya çalışacağım.
 
