@@ -1,8 +1,8 @@
-# Git 101
+# Önsöz
 
 Bu kitapta son 4-5 yılda yazılım geliştiricilerin ve yazılım şirketlerinin vazgeçilmez araçlarından olan ve benim de bir yazılım geliştirici ve yazılım ekip yöneticisi olarak çok başarılı bulduğum Git Dağıtık Versiyon Kontrol Sistemini (Distributed Version Control System) örnekler ile ele alarak size tanıtmaya çalışacağım.
 
-# İngilizce Terimler
+## İngilizce Terimler
 
 Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilgili kaynaklar da ağırlıklı olarak İngilizce. Terminoloji anlamında Türkçe bir kitap hazırlamanın en büyük zorluğu İngilizce terimlere Türkçe uygun karşılık bulmaktır. Ancak **Git 101** kitabında İnglizce -> Türkçe geçişini birebir yapmayacağım, mümkün olduğu kadar Versiyon Kontrolü ve Git ile ilgili terimlerin İnglizcelerin kullanmaya çalışacağım. Böylece
 
@@ -15,7 +15,7 @@ Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilg
 Konuların diziliminde ağırlıklı olarak [Learn Version Control with Git](http://www.git-tower.com/learn/ebook/command-line/introduction  "Learn Version Control with Git") kitabının çevrimiçi versiyonu temel alınacak. Belirtilen kaynaktaki başlıklara ve içeriğie ilave olarak daha ayrıntılı bir kitap olan [Pro Git](http://git-scm.com/book "Pro Git") kitabından da faydalanacağız.
 -->
 
-# Örnekler
+## Örnekler
 
 **Git 101** kitabındaki örnekleri Terminal (komut satırı veya command line olarak da tabir edilen) üzerinden Apple OS X işletim sistemi kullanarak oluşturacağız. Kitabın son bölümünde görsel masaüstü Git uygulamalarından da kısaca bahsedeceğiz.
 
