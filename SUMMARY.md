@@ -12,4 +12,6 @@
 * [Branching (Dallanma) ve Merging (Birleştirme)](branching_dallanma_ve_merging_birlestirme/README.md)
    * [Branching Çalışma Şeklinizi Değiştirebilir](branching_dallanma_ve_merging_birlestirme/branching_nedir,_ne_ise_yarar.md)
    * [Branch'ler İle Çalışmak](branching_dallanma_ve_merging_birlestirme/branchler_ile_calismak.md)
+   * [Değişikliklerinizi Geçici Olarak Kaydetmek -> Git Stash](branching_dallanma_ve_merging_birlestirme/degisikliklerinizi_gecici_olarak_kaydetmek_-_git_stash.md)
+   * [Local Bir Branch'de Çalışmak](branching_dallanma_ve_merging_birlestirme/local_bir_branchde_calismak.md)
 

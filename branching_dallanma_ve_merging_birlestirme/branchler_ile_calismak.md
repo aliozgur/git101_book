@@ -1,17 +1,34 @@
 # Branch'ler İle Çalışmak
 
-Git'de branch'leri daha iyi anlamak için bir adım geri gidip Git'in sizin yaptığınız değişiklikleri nasıl kaydettiğine bakmamız gerekiyor. Git bu değişiklikleri ayrı ayrı kayıt altına almak yerine (diff veya changeset olarak) değişikliğinizi commit ettiğiniz anda  dosyalarınızın tümünün o anki hallerini kayıt altına alır (snapshot).
+Git'de branch kullanımı tercihe bağlı değildir, aslında farkında olmasanız bile projeniz üzerinde çalışırken her zaman aktif tek bir branch üzerinde çalışırsınız. Git'de projenizi ilk oluşturduğunuzda Git varsayılan olarak sizin için **master** adı veilen bir branch oluşturur ve siz bu branch üzerinde çalışmaya başlarsınız.
 
-**git commit** komutu ile değişikliklerinizi commit ettiğinizde Git commit'iniz ile ilgili bilgileri içeren bir **commit nesnesi** oluşturur. Bu commit nesnesi'nde
+Gelin şimdi **git branch** komutunun basit kullanımı ile ilgili birkaç örnek görelim.
 
-* Commit'i kimin ne zaman yaptığı
-* Dosyalarınızın o anki durumuna gösteren  bir işaretçi
-* Sizin commit işleminden önce yapılan commit işlemlerini gösteren işaretçiler
+** git branch deneme** komutunu çalıştırdığınızda git sizin için projenizdeki dosyaların o anki halini barındıran **deneme** isimli bir branch oluşturur.
+> Git **git branch** komutu ile oluşturduğunuz yeni branch'i otomatik olarak aktif hale getirmez.
 
-gibi bilgiler yer alır.
+Branch'inizi oluşturduktan sonra **git branch** komutunu çalıştırdığınızda git size projeniz için oluşturduğunuz tüm branch'leri listeler ve aktif olan branch'i başınada ** * ** simgesi olacak şekilde gösterir.
 
-Gelin bir örnek ile yukarıda bahsettiğimiz commit nesnesinin nasıl oluştuğunu daha iyi açıklamaya çalışalım. Tek bir klasör altında 3 dosyadan oluşan basit bir projemiz olduğunu ve bu projemizin versiyon kontrolünü Git ile yaptığımızı varsayalım. Bu dosyaların üçünde de değişiklikler yaptıktan sonra bu dosyaları **git add** komutu ile önce Staging Area'mıza ekleyelim sonrasında da **git commit** ile değişikliklerimizi commit edelim.
+![git branch](./03_git_branch.png "git branch")
 
-![Staging Area'ya ekleme ve sonrasında commit işlemi](./02_commit.png "Staging Area'ya ekleme ve sonrasında commit işlemi")
+> **git status** komutunu çalıştırdığınızda da aktif olan branch "On branch ...." ifadesi ile gösterilir
+![git status](./05_git_status.png "git status")
 
-Staging (git add) işlemi sırasında Git değiştirdiğiniz dosyaların her birinin SHA-1 Hash değerini hesaplar ve dosyaların o anki durumlarını kayıt altına alarak hesaplanan Hash değerini Staging Area'ya yazar. Commit işlemi yapıldığında ise Git ana klasörümüzün (birden fazla klasörümüz olsaydı bu işlem her bir klasör için yapılacaktı) [checksum](http://en.wikipedia.org/wiki/Checksum) değerini hesaplar ve bu üç dosyayı *repository*'de kayıt altına alır. Bu işlemler sonrasında git bir commit nesnesini oluşturur ve
+
+Branch'leriniz ile ilgili daha fazla ayrıntı görmek için ise **git branch** komutunu **-v** parametresi ile çalıştırabilirsiniz.
+
+![git branch -v](./04_git_branch_v.png "git branch -v")
+
+Yeni oluşturduğumuz branch ile çalışmaya başlamadan önce gelin bir defa daha **git status** komutu ile projemizin ne durumda olduğuna bakalım.
+
+![git status](./06_check_status.png "git status")
+
+Yukarıdaki ekran görüntüsünde de gördüğümüz üzere aktif olan **master** branch'imizde *dosya2.md* isimli dosyamızda henüz commit etmediğiniz bir değişiklik var. Bu dosyadaki değişikliğin yeni eklediğimiz branch'de yer almasını istemediğimizi ve henüz tam anlamıyla bitirilmediğini varsayalım. Bu durumda dosyadaki değişikliği commit mi etmeliyiz yoksa tamamen göz ardı mı etmeliyiz?
+
+<div style="padding:10px;border:1px solid #fcedd7;background-color:#fef9f1">
+<p style="color:darkgray">Versyon Kontrolünün Altın Kuralları</p>
+<p style="font-weight:bold">#4 Yarım Yamalak Değişiklikleri Asla Commit etmeyin </p>
+<p>
+Tam anlamıyla bitirmediğiniz ve test etmediğiniz bir değişikliği asla commit etmeyin. Üzerinde çalışacağınız değişiklikleri planlarken bu değişiklikleri mümkün olduğunca küçük parçalar halinde ele almaya özen gösterirseniz yağtığınız değişiklikleri kayıt altına almak için henüz tamamlanmamış değişiklikleri commit etmek zorunda kalmazsınız. Buna rağmen ara safhada kayıt altına almak istediğiniz değişikliker olursa Git'in **Stash** özelliğini kullanabilirsiniz.
+</p>
+</div>
