@@ -5,7 +5,7 @@ Bu bölümümüzde aşağıdaki konuları ele alacağız
 * Branching Çalışma Şeklinizi Değiştirebilir
 * Branch'ler İle Çalışmak
 * Değişikliklerinizi Geçici Olarak Kaydetmek -> Git Stash
-* Local Bir Branch'de Çalışmak
+* Basit Bir Branching Akışı
 * Değişiklikleri Merge Etmek
-* Branching İş Akışlarına Genel Bakış
+* Farklı Branching İş Akışları
 
