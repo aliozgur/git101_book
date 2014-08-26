@@ -32,6 +32,8 @@ Branching bir önceki bölümde değindiğimiz tüm sorunların önüne geçmek 
 
 ![Branching](./01_branching.png "Branching")
 
+*[Görsel : Atlassian Git Workflows sayfasından alıntı](https://www.atlassian.com/git/workflows "Git Workflows")*
+
 Herhangi bir anda yaptığınız değişiklikler sadece aktif olarak üzerinde çalıştığınız branch'e (dal) yansıyacak diğer branchler bu değişikliklerden etkilenmeyecektir. Böylece aynı anda birden fazla branch üzerinde özgürce çalışabilirsiniz ve en önemlisi de bu çalışmalarınızdan bir kısmının çöpe dönmesinden çekinmeden denemelerinizi yapabilirsiniz.
 
 <div style="padding:10px;border:1px solid #fcedd7;background-color:#fef9f1">

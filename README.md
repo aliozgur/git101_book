@@ -2,11 +2,11 @@
 
 ## Önsöz
 
-Bu kitapta son 4-5 yılda yazılım geliştiricilerin ve yazılım şirketlerinin vazgeçilmez araçlarından olan ve benim de bir yazılım geliştirici ve yazılım ekip yöneticisi olarak çok başarılı bulduğum Git Dağıtık Versiyon Kontrol Sistemini (Distributed Version Control System) örnekler ile ele alarak size tanıtmaya çalışacağım.
+Son 4-5 yılda yazılım geliştiricilerin ve yazılım şirketlerinin vazgeçilmez araçlarından olan ve benim de bir yazılım geliştirici ve yöneticisi olarak çok başarılı bulduğum Git Dağıtık Versiyon Kontrol Sistemini (Distributed Version Control System) örnekler ile ele alarak size tanıtmaya çalışacağım.
 
 ## İngilizce Terimler
 
-Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilgili kaynaklar da ağırlıklı olarak İngilizce. Terminoloji anlamında Türkçe bir kitap hazırlamanın en büyük zorluğu İngilizce terimlere Türkçe uygun karşılık bulmaktır. Ancak **Git 101** kitabında İnglizce -> Türkçe geçişini birebir yapmayacağım, mümkün olduğu kadar Versiyon Kontrolü ve Git ile ilgili terimlerin İnglizcelerin kullanmaya çalışacağım. Böylece
+Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilgili kaynaklar da ağırlıklı olarak İngilizce. Terminoloji anlamında Türkçe bir kaynak hazırlamanın en büyük zorluğu İngilizce terimlere Türkçe uygun karşılık bulmaktır. Ancak **Git 101** kitabında İnglizce -> Türkçe geçişini birebir yapmayacağım, mümkün olduğu kadar Versiyon Kontrolü ve Git ile ilgili terimlerin İnglizcelerin kullanmaya çalışacağım. Böylece
 
 * İnglizce->Türkçe geçişinde terimlerin anlamını yitirmesine neden olmadan
 * Uluslar arası ekipler ve özellikle açık kaynak projelerde ortak dil İnglizce olduğu için Git ile ilgili terminolojiyle tanışmanızı sağlamak istiyorum
@@ -19,9 +19,9 @@ Konuların diziliminde ağırlıklı olarak [Learn Version Control with Git](htt
 
 ## Örnekler
 
-**Git 101** kitabındaki örnekleri Terminal (komut satırı veya command line olarak da tabir edilen) üzerinden Apple OS X işletim sistemi kullanarak oluşturacağız. Kitabın son bölümünde görsel masaüstü Git uygulamalarından da kısaca bahsedeceğiz.
+Örneklerimizi **Terminal** (komut satırı veya command line olarak da tabir edilen) üzerinden Apple OS X işletim sistemi kullanarak oluşturacağız. Son bölümümüzde görsel masaüstü Git uygulamalarından da kısaca bahsedeceğiz.
 
-Bu kitabı oluştruduğum anda benim bilgisayarımdaki OS X ve git versiyonları aşağıdaki gibi
+Bu kaynağın oluşturulduğu anda benim bilgisayarımdaki OS X ve git versiyonları aşağıdaki gibi
 
 * OS X versiyonu : 10.9.4 (Mavericks)
 * Git versiyonu : 1.8.5.2 (Apple Git-48)

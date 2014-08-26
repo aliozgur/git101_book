@@ -9,6 +9,8 @@ Bu sistemleri kullanarak herhangi bir anda üzerinde çalıştığınız dosyala
 
 ![Versiyon Kontrolü Nedir?](./what-is-vcs.png "Versiyon Kontrolü Nedir?")
 
+*[Görsel : Atlassian Git Workflows sayfasından alıntı](https://www.atlassian.com/git/workflows "Git Workflows")*
+
 Versiyon kontrolünü, kullandığınız programlama dili, yardımcı programlama kütüphaneleri (framework), dosya tipi veya işletim sisteminden bağımsız bir yaklaşım olarak düşünmelisiniz. Çünkü versiyon kontrolü
 
 
