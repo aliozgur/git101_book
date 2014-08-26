@@ -28,3 +28,12 @@ Bu kaynağın oluşturulduğu anda benim bilgisayarımdaki OS X ve git versiyonl
 
 Git OS X dışında tüm Linux dağıtımları ve Windows işletim sisteminde de çalışmaktadır. git komutları işletim sistemi bazında değişmemekle birlikte git kurulumu kullandığınız işletim sistemine göre değişebilir.
 
+## Kaynakça ve Referanslar
+
+1. [Git-Scm Referans Dokümanı](http://git-scm.com/docs)
+2. [GitRef Referans Dokümanı](http://gitref.org/branching/)
+3. [Learn Version Control with Git](http://www.git-tower.com/learn/ebook/command-line/introduction)
+4. [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorial)
+5. [Pro Git Book](http://git-scm.com/book)
+6. [Atlassian Git Workflows](https://www.atlassian.com/git/workflows)
+7. [Learn Git Branching Online Tutorial Application](http://pcottle.github.io/learnGitBranching/)
