@@ -14,4 +14,5 @@
    * [Branch'ler İle Çalışmak](branching_dallanma_ve_merging_birlestirme/branchler_ile_calismak.md)
    * [Değişikliklerinizi Geçici Olarak Kaydetmek -> Git Stash](branching_dallanma_ve_merging_birlestirme/degisikliklerinizi_gecici_olarak_kaydetmek_-_git_stash.md)
    * [Local Bir Branch'de Çalışmak](branching_dallanma_ve_merging_birlestirme/local_bir_branchde_calismak.md)
+   * [Değişiklikleri Merge Etmek](branching_dallanma_ve_merging_birlestirme/degisiklikleri_merge_etmek.md)
 
