@@ -17,4 +17,6 @@
    * [Değişiklikleri Merge Etmek](branching_dallanma_ve_merging_birlestirme/degisiklikleri_merge_etmek.md)
    * [Branching İş Akışları](branching_dallanma_ve_merging_birlestirme/branching_is_akislari.md)
 * [Remote Repository'ler](remote_repositoryler/README.md)
+   * [Remote Bir Repository'ye Bağlantı Sağlamak](remote_repositoryler/remote_bir_repositoryye_baglanti_saglamak.md)
+   * [Remote Repository'deki Verilerin İncelenmesi](remote_repositoryler/remote_repositorydeki_verilerin_incelenmesi.md)
 
