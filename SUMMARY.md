@@ -19,4 +19,5 @@
 * [Remote Repository'ler](remote_repositoryler/README.md)
    * [Remote Bir Repository'ye Bağlantı Sağlamak](remote_repositoryler/remote_bir_repositoryye_baglanti_saglamak.md)
    * [Remote Repository'deki Verilerin İncelenmesi](remote_repositoryler/remote_repositorydeki_verilerin_incelenmesi.md)
+   * [Remote Değişiklikleri Entegre Etmek](remote_repositoryler/remote_degisiklikleri_entegre_etmek.md)
 
