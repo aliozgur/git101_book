@@ -11,11 +11,8 @@ Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilg
 * İnglizce->Türkçe geçişinde terimlerin anlamını yitirmesine neden olmadan
 * Uluslar arası ekipler ve özellikle açık kaynak projelerde ortak dil İnglizce olduğu için Git ile ilgili terminolojiyle tanışmanızı sağlamak istiyorum
 
-<!--
-# Konuların Dizilimi
+Konuların diziliminde ve içeriğin oluşturulmasında [Learn Version Control with Git](http://www.git-tower.com/learn/ebook/command-line/introduction  "Learn Version Control with Git") isimli kitapçığın online versiyonu baz alınmıştır. Belirtilen kaynaktaki başlıklara ve içeriğe ilave olarak daha ayrıntılı bir kitap olan [Pro Git](http://git-scm.com/book "Pro Git") kitabından ve online diğer kaynaklardan da faydalanılmıştır.
 
-Konuların diziliminde ağırlıklı olarak [Learn Version Control with Git](http://www.git-tower.com/learn/ebook/command-line/introduction  "Learn Version Control with Git") kitabının çevrimiçi versiyonu temel alınacak. Belirtilen kaynaktaki başlıklara ve içeriğie ilave olarak daha ayrıntılı bir kitap olan [Pro Git](http://git-scm.com/book "Pro Git") kitabından da faydalanacağız.
--->
 
 ## Örnekler
 
@@ -26,7 +23,7 @@ Bu kaynağın oluşturulduğu anda benim bilgisayarımdaki OS X ve git versiyonl
 * OS X versiyonu : 10.9.4 (Mavericks)
 * Git versiyonu : 1.8.5.2 (Apple Git-48)
 
-Git OS X dışında tüm Linux dağıtımları ve Windows işletim sisteminde de çalışmaktadır. git komutları işletim sistemi bazında değişmemekle birlikte git kurulumu kullandığınız işletim sistemine göre değişebilir.
+Git, OS X ile birlikte tüm Linux dağıtımları ve Windows işletim sisteminde de çalışmaktadır. Git komutları işletim sistemi bazında değişmemekle birlikte Git kurulumu kullandığınız işletim sistemine göre değişebilir. İşletim sisteminize bağlı olarak kurulum yönergeleri için arama motorlarını kullanaral yaparak gerekli adımları öğrenebilirsiniz.
 
 ## Kaynakça ve Referanslar
 
