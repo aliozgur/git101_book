@@ -20,4 +20,7 @@
    * [Remote Bir Repository'ye Bağlantı Sağlamak](remote_repositoryler/remote_bir_repositoryye_baglanti_saglamak.md)
    * [Remote Repository'deki Verilerin İncelenmesi](remote_repositoryler/remote_repositorydeki_verilerin_incelenmesi.md)
    * [Remote Değişiklikleri Entegre Etmek](remote_repositoryler/remote_degisiklikleri_entegre_etmek.md)
+   * [Local Bir Branch'i Yayınlamak (Publish)](remote_repositoryler/local_bir_branchi_yayinlamak_publish.md)
+   * [Branch'leri Silmek](remote_repositoryler/branchleri_silmek.md)
+* [İleri Seviye Komutlar ve İşlemler](ileri_seviye_komutlar_ve_islemler/README)
 

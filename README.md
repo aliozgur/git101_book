@@ -37,3 +37,5 @@ Git OS X dışında tüm Linux dağıtımları ve Windows işletim sisteminde de
 5. [Pro Git Book](http://git-scm.com/book)
 6. [Atlassian Git Workflows](https://www.atlassian.com/git/workflows)
 7. [Learn Git Branching Online Tutorial Application](http://pcottle.github.io/learnGitBranching/)
+8. [Git: fetch and merge, don't pull]( http://longair.net/blog/2009/04/16/git-fetch-and-merge/ )
+9. [Resolving a merge conflict from command line](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line)
