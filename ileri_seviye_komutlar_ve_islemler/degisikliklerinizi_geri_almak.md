@@ -18,3 +18,19 @@ Commit işlemlerinizi ne kadar dikkatli yaparsanız yapın bazen commit'e dahil 
 
 ## Local Değişiklikleri Geri Almak
 
+Henüz commit etmediğimiz değişiklikliklere Local değişiklik denir. Bazen önceki halinden daha kötü olan kod yazabilirsiniz ve bu değişikliği geri almak isteyebilirsiniz. Bu gibi durumlarda değiştirdiğiniz halinden memnun olmadığınız dosyadaki değişiklikleri geri alıp dosyanın son commit edilmiş haline geri dönmek istediğinizde, önceki bölümlerde de sıkca kullandığımız, **fit checkout** komutunu **--** seçeneği ile çalıştırmanız yeterli olacaktır.
+
+>* **$ git checkout -- dosya1.md** veya
+>* **$ git checkout -- klasor/dosya2.md**
+> şeklinde kullanabilirsiniz.
+
+Tüm dosyalarda yaptığınız değişiklikleri geri almak istiyorsanız **git reset** komutunu **--hard** seçeneği ile kullanabilirsiniz
+
+> **$ git reset --hard HEAD**
+
+Bu komut ile Git tüm dosyaların son commit edilen değişiklikleri içeren HEAD versiyonundaki hallerinin Working Copy'nize geri yükler.
+
+> **git checkout --** ve **git reset --hard** komutları sonrasında kayıt altına alınmamış olan tüm değişiklikler geri dönüşü olmayacak şekilde yok olur. Bu nedenle bu komutları çalıştırırken dikkatli olmalısınız ve iki defa düşünmelisiniz.
+
+## Commit Edilen Değişiklikleri Geri Almak
+
