@@ -39,3 +39,4 @@ Git OS X dışında tüm Linux dağıtımları ve Windows işletim sisteminde de
 7. [Learn Git Branching Online Tutorial Application](http://pcottle.github.io/learnGitBranching/)
 8. [Git: fetch and merge, don't pull]( http://longair.net/blog/2009/04/16/git-fetch-and-merge/ )
 9. [Resolving a merge conflict from command line](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line)
+10. [Adding And Removing Remote Branches – Git Branch](http://www.gitguys.com/topics/adding-and-removing-remote-branches/)

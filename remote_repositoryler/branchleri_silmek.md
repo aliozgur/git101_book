@@ -6,3 +6,5 @@ Bir önceki bölümde oluşturduğumuz **superyeniozellik** isimli branch üzeri
 
 > Silmek istediğiniz local branch aktif ise **git branch -d** komutu hata verecektir. Silme işlemi öncesinde sileceğiniz local branch'den farklı bir branch'i **git checkout** komutu ile aktif hale getirmeyi unutmayın.
 
+Remote branch'i **git branch -dr** komutu ile sildiğiniz halde remote repository'ye erişip branchleri kontrol ederseniz **superyeniozellik** isimli branch'in sunucuda hala durduğunuz göreceksiniz. Bunun nedeni **git branch -dr** komutundaki seçeneklerden **r** seçeneğinin suncudaki branch'i değil yerel bilgisayarınızda remote branch bilgilerini siler. Bu değişikliğin suncuda da geçerli olması için yani sunucudaki branch'i de silmek için **git push origin :superyeniozellik** komutu ile değişikliği bir anlamda remote repositry'de yayınlamanız gerekiyor.
+> [Daha ayrıntılı bilgi için bakınız (StackOverflow - İngilizce )](http://stackoverflow.com/questions/24216725/deleting-remote-branch-does-not-remove-from-github)
