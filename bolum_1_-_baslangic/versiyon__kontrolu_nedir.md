@@ -1,4 +1,4 @@
-# 1.1. Versiyon  Kontrolü Nedir?
+# Versiyon  Kontrolü Nedir?
 
 Versiyon kontrolü nedir ve bizi neden ilgilendirmeli? Versiyon kontrolünü bir dosya veya bir küme dosyadaki değişiklikleri takip edebilmek için uyguladığımız bir yöntem olarak tanımlayabiliriz. Git gibi sistemler tüm bu değişikliklerin tarihçesini ve içeriğini elektronik olarak bizim için takip ederek kayıt altına almamızı sağlayan veritabanları olarak düşünülebilir.
 
@@ -16,8 +16,8 @@ Versiyon kontrolünü, kullandığınız programlama dili, yardımcı programlam
 
 * HTML dosyalar için kullanılabileceği gibi, mimari tasarım amaçlı proje dosyaları ve iPhone uygulaması kaynak kodunuz için de kullanılabilir
 
-* Dosyalarınız üzerinde çalışırken hangi işletim sistemi üzerinde ve hangi programlar ile çalıştığınız ile ilgilenmez (Visual Studio, Word, AutoCAD veya iOS farketmiyor)
+* Dosyalarınız üzerinde çalışırken hangi işletim sistemini veya hangi programları kullandığınız ile ilgilenmez (Sublime Text, Notepad, Visual Studio, Word, AutoCAD)
 
-> Git 101 kitabının tarhçesini ve versiyonları da **git** ile takip ediliyor
+> Ben de bu kitabın versiyon kontrolü için **Git** kullanıyorum
 
-Versiyon kontrol sistemleri en basit anlamda sadece **dosyalarınızdaki değişikliklerin tarihçesini takip edip kayıt altında tutan** sistemlerdir, bu nedenle versiyon kontrol sistemlerini yedekleme veya diğer yazılım geliştirme araçları karşılaştırmak doğru olmayacaktır.
+Versiyon kontrol sistemleri en basit anlamda sadece **dosyalarınızdaki değişikliklerin tarihçesini takip edip kayıt altında tutan** sistemlerdir. Bu nedenle versiyon kontrol sistemlerini yedekleme veya diğer yazılım geliştirme araçları ile karşılaştırmak doğru olmayacaktır.

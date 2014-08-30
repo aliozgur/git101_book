@@ -1,4 +1,4 @@
-# 1.3. Git İle Çalışmaya Başlamak
+# Git İle Çalışmaya Başlamak
 
 ## Komut satırı mı yoksa görsel arayüz mü?
 

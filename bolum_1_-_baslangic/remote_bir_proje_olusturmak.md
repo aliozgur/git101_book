@@ -1,4 +1,4 @@
-# 1.6. Remote bir proje oluşturmak
+# Remote bir proje oluşturmak
 
 Versiyon kontrolü Git ile yapılan bir projede yer alıyorsanız *remote repository*'lerinizi nasıl yöneteceğinizi de öğrenmeniz gerekiyor. Remote repository'leri projelerinizi internet'de veya sınırlı erişime izin verilen şirket ağında yer alan versiyonları olarak düşünebilirsiniz.
 
