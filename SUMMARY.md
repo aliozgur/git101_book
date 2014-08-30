@@ -24,4 +24,7 @@
    * [Branch'leri Silmek](remote_repositoryler/branchleri_silmek.md)
 * [İleri Seviye Komutlar ve İşlemler](ileri_seviye_komutlar_ve_islemler/README.md)
    * [Değişikliklerinizi Geri Almak](ileri_seviye_komutlar_ve_islemler/degisikliklerinizi_geri_almak.md)
+   * [Diff İle Farkları İncelemek](ileri_seviye_komutlar_ve_islemler/diff_ile_farklari_incelemek.md)
+   * [Çakışmaları Gidermek](ileri_seviye_komutlar_ve_islemler/cakismalari_gidermek.md)
+   * [Merge Alternatifi Olarak Rebase Kullanımı](ileri_seviye_komutlar_ve_islemler/merge_alternatifi_olarak_rebase_kullanimi.md)
 
