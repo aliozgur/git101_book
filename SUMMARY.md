@@ -27,4 +27,9 @@
    * [Diff İle Farkları İncelemek](ileri_seviye_komutlar_ve_islemler/diff_ile_farklari_incelemek.md)
    * [Çakışmaları Gidermek](ileri_seviye_komutlar_ve_islemler/cakismalari_gidermek.md)
    * [Merge Alternatifi Olarak Rebase Kullanımı](ileri_seviye_komutlar_ve_islemler/merge_alternatifi_olarak_rebase_kullanimi.md)
+* [Git Araç ve Servisleri](git_arac_ve_servisleri/README.md)
+   * [Görsel Git İstemcileri](git_arac_ve_servisleri/masaustu_gorsel_git_uygulamalari.md)
+   * [Diff/Merge Araçları](git_arac_ve_servisleri/diffmerge_araclari.md)
+   * [Git Servisleri](git_arac_ve_servisleri/cevrimici_git_servisleri.md)
+   * [Kaynakça ve Referanslar](git_arac_ve_servisleri/kaynakca_ve_referanslar.md)
 
