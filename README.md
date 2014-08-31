@@ -6,9 +6,7 @@ Son 4-5 yılda yazılım geliştiricilerin ve yazılım şirketlerinin vazgeçil
 
 ## İngilizce Terimler
 
-Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilgili kaynaklar da ağırlıklı olarak İngilizce. Terminoloji anlamında Türkçe bir kaynak hazırlamanın en büyük zorluğu İngilizce terimlere Türkçe uygun karşılık bulmaktır. Ancak **Git 101** kitabında İnglizce -> Türkçe geçişini birebir yapmayacağım, mümkün olduğu kadar Versiyon Kontrolü ve Git ile ilgili terimlerin İnglizcelerini kullanmaya çalışacağım.
-
-Amacım çeviri nedeni ile terimlerin anlamını yitirmesine neden olmadan uluslar arası ekiplerde, özellikle de açık kaynak projelerde, ortak dil İnglizce olduğu için Git terminolojisi ile tanışmanızı sağlamak.
+Yazılım Geliştirme ile ilgili çoğu konuda olduğu gibi maalesef Git ile ilgili kaynaklar da ağırlıklı olarak İngilizce. Terminoloji anlamında Türkçe bir kaynak hazırlamanın en büyük zorluğu İngilizce terimlere Türkçe uygun karşılık bulmaktır. Ancak **Git 101** kitabında İnglizce -> Türkçe geçişini birebir yapmayacağım, mümkün olduğu kadar Versiyon Kontrolü ve Git ile ilgili terimlerin İnglizce hallerini kullanmaya çalışacağım.
 
 Konuların diziliminde ve içeriğin oluşturulmasında [Learn Version Control with Git](http://www.git-tower.com/learn/ebook/command-line/introduction  "Learn Version Control with Git") isimli kitapçığın online versiyonu baz alınmıştır. Belirtilen kaynaktaki başlıklara ve içeriğe ilave olarak daha ayrıntılı bir kitap olan [Pro Git](http://git-scm.com/book "Pro Git") kitabından ve son bölümde linklerini paylaştığım online diğer kaynaklardan da faydalanılmıştır.
 

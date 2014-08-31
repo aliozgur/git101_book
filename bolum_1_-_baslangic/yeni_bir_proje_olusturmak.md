@@ -1,5 +1,5 @@
 # Local bir proje oluşturmak
-Henüz version kontrolü altında olmayan bir projenizi versiyon kontrolü altına almak için **git init** komutunu kullanırız. Bu işlemi gerçekleştirmek için Mac OS X'de Terminal uygulamasını Windows'da ise Git Bash'i açarak aşağıdaki komutları çalıştırmanız gerekiyor
+Henüz version kontrolü altında olmayan bir projenizi versiyon kontrolü altına almak için **git init** komutunu kullanırız. Bu işlemi gerçekleştirmek için Mac OS X'de Terminal uygulamasını Windows'da ise Git Bash'i açarak aşağıdaki komutları çalıştırmanız gerekir
 
     $ cd proje/klasörünüzün/yolu/
     $ git init
@@ -13,7 +13,7 @@ komutu ile proje klasörünüz altındaki dosyaları listelediğinizde klasörü
 
 ## Versiyon kontrolü altına almak istemediğimiz dosyalar
 
-Tüm geliştirme ortamları ve işletim sistemlerinde kullandığımız araçlar tarafından ara bir ürün olarak üretilen ve aslında doğrudan versiyon kontrolü altına almak istemediğimiz dosya veya klasörler olacaktır. Örneğin Mac OS X'in otomatik olarak ürettiği gizli *DS_Store* isimli klasör veya C++ derleyicileri tarafından üretilen *.o* uzantılı *obj* dosyaları gibi. Hangi dosyaların versiyon kontrolü altında tutulacağına ve hangilerinin göz ardı edileceğine Git otomatik karar vermez, bu kararı sizin vermeniz gerekiyor.
+Tüm geliştirme ortamları ve işletim sistemlerinde kullandığımız araçlar tarafından ara bir ürün olarak üretilen ve aslında doğrudan versiyon kontrolü altına almak istemediğimiz dosya veya klasörler olacaktır. Örneğin Mac OS X'in otomatik olarak ürettiği gizli *DS_Store* isimli klasör veya C++ derleyicileri tarafından üretilen *.o* uzantılı *obj* dosyaları gibi. Hangi dosyaların versiyon kontrolü altında tutulacağına ve hangilerinin göz ardı edileceğine Git otomatik olarak karar vermez, bu kararı sizin vermeniz gerekir.
 
 > Kullandığınız geliştirme araçlarına bağlı olarak hangi dosyaların göz ardı edilebileceği ile ilgili GitHub'in yayınladığı [derlemeye](https://github.com/github/gitignore) göz atabilirsiniz.
 

@@ -20,4 +20,4 @@ Versiyon kontrolünü, kullandığınız programlama dili, yardımcı programlam
 
 > Ben de bu kitabın versiyon kontrolü için **Git** kullanıyorum
 
-Versiyon kontrol sistemleri en basit anlamda sadece **dosyalarınızdaki değişikliklerin tarihçesini takip edip kayıt altında tutan** sistemlerdir. Bu nedenle versiyon kontrol sistemlerini yedekleme veya diğer yazılım geliştirme araçları ile karşılaştırmak doğru olmayacaktır.
+Versiyon kontrol sistemleri en basit anlamda **dosyalarınızdaki değişikliklerin tarihçesini takip edip kayıt altında tutan** sistemlerdir. Bu nedenle versiyon kontrol sistemlerini yedekleme veya diğer yazılım geliştirme araçları ile karşılaştırmak doğru olmaz.

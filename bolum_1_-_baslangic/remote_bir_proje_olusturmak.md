@@ -4,7 +4,7 @@ Versiyon kontrolü Git ile yapılan bir projede yer alıyorsanız *remote reposi
 
 Diğer ekip üyeleri ile birlikte verimli çalışabilmek,  onların yaptığı değişiklikleri kendi yerel çalışma alanınıza almak, kendi yaptığınız değişiklikleri onlar ile paylaşabilmek için remote repository'lerinizi doğru ve etkin bir şekilde yönetmelisiniz.
 
-Git ile versiyon kontrolü yapılan bir projeye dahil olduğunuzda size verilecek ilk bilgiler projenin adresi (URL) ve projeye erişim için kullanacağınız kullanıcı adınız ve şifrenizdir. Uzaktaki bir repository'nin (URL) adresi aşağıdaki formatlardan birinde olacaktır
+Git ile versiyon kontrolü yapılan bir projeye dahil olduğunuzda size verilecek ilk bilgiler projenin Git adresi (URL) ve projeye erişim için kullanacağınız kullanıcı adı ve şifrenizdir. Uzaktaki bir repository'nin (URL) adresi aşağıdaki formatlardan birinde olacaktır
 
 * ssh://user@server/git-repo.git
 * kullanıcıadı@sunucuadı:git-repo.git
