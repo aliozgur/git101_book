@@ -8,7 +8,7 @@ Linux ekibi BitKeeper ile olan deneyimlerini de dikkate alarak öncelikli olarak
 
 * Hızlı
 * Kullanımı kolay
-* Lineer olmayan geliştirme iş akışına uygun (baranching)
+* Lineer olmayan geliştirme iş akışına uygun (branching)
 * Tamamen dağıtık
 * Büyük projeleri destekleyebilecek
 
