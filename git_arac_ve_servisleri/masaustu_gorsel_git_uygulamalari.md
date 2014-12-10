@@ -16,6 +16,14 @@ SourceTree ücretsiz bir uygulamadır ve Mac OS X, Windows ve Linux işletim sis
 
 ![SourceTree Commit and Push](.\03_sourcetree_commit.png "SourceTree Commit and Push")
 
+### Linux'a Özel İstemciler
+
+* [GitEye](http://www.collab.net/products/giteye) : Linux'un yanısıra OSX ve Windows işletim sistemlerinde de kullanılabilir.
+* [gitg](https://wiki.gnome.org/Apps/Gitg/)
+* [giggle](https://wiki.gnome.org/Apps/giggle/)
+* [GitForce](http://gdevic.github.com/GitForce)
+* [RabbitVCS](http://www.rabbitvcs.org/)
+
 ### Tower
 
 Tower, sadece Mac OS X'de çalışan ücretli bir uygulama.[Bu linki](http://www.git-tower.com/) kullanarak uygulamanın 30 günlük deneme sürümünü indirebilirsiniz.
