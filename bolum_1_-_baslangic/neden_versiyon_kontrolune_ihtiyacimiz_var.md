@@ -42,4 +42,4 @@ Versiyon kontrol sistemleri değişikliklerinizi tamamlayıp **commit** etmek is
 > Git'de commit işlemi yapılırken comment (yorum metni) girilmesi zorunludur
 
 ## Yedekleme
-Git gibi dağıtık versiyon kontrol (DVCS) sistemlerinin yan etki olarak sağladığı faydalardan birisi de yedeklemedir. Git sayesinde aynı projede çalışan herkesin kendi bilgisayarında projenin tam bir tarihçesi tutulur. Merkezi versiyon kontrol sistemi sunucusunda bir sorun meydaa geldiğinde takımdaki herhangi birinin kendi diskindeki proje'yi sunucuya geri yüklemesi yeterlidir. Diğerleri de kendi bilgisayarlarındaki proje dosylarını geri yüklenen proje dosyaları ile senkronize edebilirler.
+Git gibi dağıtık versiyon kontrol (DVCS) sistemlerinin yan etki olarak sağladığı faydalardan birisi de yedeklemedir. Git sayesinde aynı projede çalışan herkesin kendi bilgisayarında projenin tam bir tarihçesi tutulur. Merkezi versiyon kontrol sistemi sunucusunda bir sorun oluştuğunda takımdaki herhangi birinin kendi diskindeki proje'yi sunucuya geri yüklemesi yeterlidir. Diğerleri de kendi bilgisayarlarındaki proje dosylarını geri yüklenen proje dosyaları ile senkronize edebilirler.
