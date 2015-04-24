@@ -17,7 +17,7 @@ Ancak bazı durumlarda Git merge işlemini otomatik olarak gerçekleştiremez ve
 
 **git status** komutunu çalıştırdığınızda Git size branch'inizde entegre edilmemiş dosyalar olduğunu söyleyecektir.
 
-![unmerged paths](.\04_conflict.png "unmerged paths")
+![unmerged paths](04_conflict.png "unmerged paths")
 
 Yukarıdaki ekran görüntüsünde **dosya1.md** isimli dosyamızda çakışma olduğunu görebiliriz. Bu çakışmayı düzeltmek için dosyamızı açıp çakışan satırları düzeltmemiz gerekiyor.
 
