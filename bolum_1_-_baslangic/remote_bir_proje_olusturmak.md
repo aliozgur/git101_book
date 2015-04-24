@@ -16,13 +16,13 @@ Bu adres formatlarından ilk iki tanesi [SSH](http://en.wikipedia.org/wiki/Secur
 
 Remote repository'nizin adresini ve erişim için gerekli kullanıcı adınızı ve şifrenizi öğrendikten sonra yapmanız gerken tek şey bu adresten projenizin dosyalarını yerel diskinize klonlmak. Bunun için öncelikle yerel diskinizde projenizi indireceğiniz bir klasör oluşturmanız ve Terminal'den bu klasöre gitemeniz gerekiyor.Sırasıyla aşağıdaki komutları Terminal'de yazınız
 
-![Boş Klasör Oluşturma](./01_emptyprojectdir.png "Boş Klasör Oluşturma")
+![Boş Klasör Oluşturma](01_emptyprojectdir.jpg "Boş Klasör Oluşturma")
 
 Yukarıdaki ekran görüntüsünde yer alan ilk **cd** komutu ile proje klasörümün içinde yer alacağı ana klasör olan **Projects** klasörüne konumlanıyoruz. İkinci komut olan **mkdir** ile proje klasörümüz olan **git101_kitap** klasörünü oluşturuyoruz. Üçüncü komutumuz ile de yeni oluşturduğumuz **git101_kitap** klasörüne konumlanıyoruz.
 
 Yerel diskimizde boş proje klasörümüzü oluştruduğumuza göre şimdi remote repository'mizi yerel klasörümüze **git clone** komutu ile indirebiliriz.
 
-![Remote repository'yi klonlama](./02_cloneremote.png "Remote repository'yi klonlama")
+![Remote repository'yi klonlama](02_cloneremote.jpg "Remote repository'yi klonlama")
 
 
 > Kullanıcı adınızı ve şifrenizi vererek remote repository'yi klonlamak için aşağıdaki **git clone** komutuna bu bilgileri aşağıdaki formatta vermeniz gerekiyor

@@ -7,7 +7,8 @@ Bu sistemleri kullanarak herhangi bir anda üzerinde çalıştığınız dosyala
 > Dosyaların kayıt altına alınmış herhangi bir andaki hallerine **versiyon** diyoruz
 
 
-![Versiyon Kontrolü Nedir?](./what-is-vcs.png "Versiyon Kontrolü Nedir?")
+![Versiyon Kontrolü Nedir?](what-is-vcs.jpg "Versiyon Kontrolü Nedir?")
+
 
 *[Görsel : Atlassian Git Workflows sayfasından alıntı](https://www.atlassian.com/git/workflows "Git Workflows")*
 

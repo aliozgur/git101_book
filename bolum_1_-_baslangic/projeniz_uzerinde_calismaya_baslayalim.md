@@ -40,7 +40,7 @@ Projeniz üzerinde çalışırken belirli bir zaman aralığında yaptığınız
 
 Son commit işleminizden sonra proje dosyalarınızda yaptığınız değişiklikleri listelemek için **git status** komutunu kullanabilirsiniz.
 
-![git status](./03_gitstatus.png "git status")
+![git status](03_gitstatus. "git status")
 Yukarıdaki terminal ekran görüntüsünde de görebileceğiniz gibi git oldukça ayrıntılı durum bilgisi sunmaktadır. **git status** komutu ile git aşağıdaki 3 ana grupta yer alan dosyaları size listeler
 
 * Changes to be committed (Commit edilmeye hazır dosyalar): Bu gruptaki dosyalar **git add** veya **git rm** komutu ile Staging Area'ya eklediğimiz dosyalardır. Bu dosyalar bir sonraki commit'imizin içinde yer alacaktır
@@ -88,7 +88,7 @@ Git projeniz üzerinde çalıştığınız her anda yaptığınız commit işlem
 
 Git'in commitleriniz ile ilgili kayıt altına aldığı tarihsel bilgileri görmek için **git log** komutunu kullanıyoruz. BU komut tüm commitler ile ilgili bilgileri, en son commit en üstte olacak şekilde, tarihsel olarak sıralar. Eğer Terminal pencerenize sığımayacak kadar çok tarihsel kayıt var ise son satırda **:** simgesi yer alacaktır, klavyenizden **SPACE/BOŞLUK** tuşuna basarak bir sonraki sayfanın listelenmesini **q** tuşuna basarak da listelemenin sonlandırılmasını sağlayabilirsiniz.
 
-![Commit Tarihçesi](./04_gitlog.png "Commit Tarihçesi")
+![Commit Tarihçesi](04_gitlog.jpg "Commit Tarihçesi")
 
 Terminal'de listelenen her commit tarihçesi kaydı, diğer bilgilerin yanısıra, aşağıdaki temel bilgileri içerir
 
@@ -101,7 +101,7 @@ Terminal'de listelenen her commit tarihçesi kaydı, diğer bilgilerin yanısır
 
 git log komutu ile birlikte commit işlemi ile ilgili bilgilendirici çoğu bilgiyi görmekle birlikte parametre olarak **-p** değerini kullanırsanız dosyalarda yapılan değişiklikler de ayrıntılı olarak lsitelenecektir.
 
-![Commit Tarihçesi Değişiklik Ayrıntıları](./05_gitlog_p.png "Commit Tarihçesi Değişiklik Ayrıntıları")
+![Commit Tarihçesi Değişiklik Ayrıntıları](05_gitlog_p.jpg "Commit Tarihçesi Değişiklik Ayrıntıları")
 
 Kitabımızın ilerleyen bölümlerinde **git log -p** komutu ile gördüğümüz bilgileri nasıl yorumlayacağımızı ayrıntılı olarak ele alacağız.
 
