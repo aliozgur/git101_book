@@ -45,13 +45,13 @@ Hatalı bir düzenleme yaptığınızda (ki bu genelde test edilmeden yapılan c
 
 **git revert** komutu commit ettiğiniz herhangi bir değişikliği geri almak için kullanılır. Bu komut ile commit işleminizin kendisi veya bilgileri silinmez sadece commit işleminizdeki değişiklik geri alınır. Örneğin eklediğiniz bir satırı kaldırmak isterseniz **git revert** komutu ile bunu yapabilirsiniz. Aslında git revert komutu değişkliğinizi geri almak için otomatik olarak yeni bir commit oluşturur ve geri alma işlemi bu commit sayesinde değişiklik tarihçesinde görünür hale gelir.
 
-![git revert](.\01_git_revert.png "git revert")
+![git revert](01_git_revert.jpg "git revert")
 
 Yukarıdaki ekran görüntüsünde ilk önce **git revert <hash>** komutunu çalıştırdık. Bu komutun en önemli parametresi geri almak istediğimiz commit'in hash değeri (hash'in ilk altı karakterini kullanabiliriz). Komutu çalıştırdıktan sonra değişiklik tarihçesini incelediğimizde git'in otomatik olarak bir commit oluşturduğunu ve bu commit'in bilgilerinde hangi değişikliğin geri alındığına dair ayrıntıların yer aldığını görüyoruz.
 
 Değişiklikleri geri almak için kullanabileceğimiz diğer bir komu ise **git reset** komutun. Bu komut da herhangi bir bilginizi silmeden işlemi gerçekleştirir, ancah git revert komutundan farklı olarak otomatik yeni bir commit üretmeden değişikliğinizi geri almanızı sağlar.
 
-![git reset](.\02_git_reset.png "git reset")
+![git reset](02_git_reset.jpg "git reset")
 
 Bu komut için de git revert komutunda olduğu gibi geri almak istediğimiz commit'in hash değerini veriyoruz. Kullandığımız diğer bir seçenek olan **--hard** seçeneği ise local tüm commitlerinizi silerek geri alma işleminin yapılmasına neden olur, bu nedenle --hard seçeneğini kulllanırken dikkatli olmalısınız. Local commit'lerinizin korunmasını istiyorsanız **--keep** komutunu kullanabilirsiniz.
 

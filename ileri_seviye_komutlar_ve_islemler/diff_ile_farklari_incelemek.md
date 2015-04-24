@@ -6,7 +6,7 @@ Daha önceki bölümlerde bolca kullandığımız **git status** ve **git log** 
 
 Versiyon kontrol sistemlerinde iki versiyon arasındaki değişikliklere İngilizce difference (fark) kelimesinin kısaltması olan **diff** denir. Git'de iki versiyon arasındaki farkları görmek için **git diff** komutunu kullanabilirsiniz. Örneğin **git diff 374c6f..5d903e dosya1.md** komutu ile dosya1.md dosyasının 374c6f ve 5d903e hash'li commmitlerdeki iki versiyonunun diff'ini alıyoruz.
 
-![git diff](.\03_git_diff.png "git diff")
+![git diff](03_git_diff.jpg "git diff")
 
 git diff komutunu çalıştırdığımızda yukarıdaki gibi bir ekran ile karşılaşacaksınız. Gelin şimdi bu ekranda numaralandırdığımız önemli alanlarda hangi bilgilerin bize gösterildiğini ele alalım
 
@@ -22,7 +22,7 @@ git diff komutunu çalıştırdığımızda yukarıdaki gibi bir ekran ile karş
 
 Daha önceki bölümlerde **git status** komutu ile Local branch'imizde hangi dosyaların değiştiğini görebileceğimizi örğrenmiştik. **git status** komutu ile dosyaların içeriğindeki değişiklikleri göremeyiz. İçerik değişikliklerini de görmek için doğrudan **git diff** komutunu herhangi bir parametre veya seçenek belirteden kullanabilirsiniz.
 
-![git diff](.\04_local_diff.png "git diff")
+![git diff](04_local_diff.jpg "git diff")
 
 Sadece Staging Area'ya commit edilmek üzere eklenmiş/çıkarılmış dosyalardaki değişiklikler görmek isterseniz **git diff --staged** komutunu kullanabilirsiniz.
 
