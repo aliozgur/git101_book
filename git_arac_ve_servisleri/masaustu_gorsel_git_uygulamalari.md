@@ -10,11 +10,11 @@ SourceTree ücretsiz bir uygulamadır ve Mac OS X, Windows ve Linux işletim sis
 [SourceTree'yi bu linkten indirebilirsiniz](http://www.sourcetreeapp.com/)
 
 
-![SourceTree Bookmarks](.\01_sourcetree_bookmarks.png "SourceTree Bookmarks")
+![SourceTree Bookmarks](01_sourcetree_bookmarks.jpg "SourceTree Bookmarks")
 
-![SourceTree Repository](.\02_sourcetree_repo.png "SourceTree Repository")
+![SourceTree Repository](02_sourcetree_repo.jpg "SourceTree Repository")
 
-![SourceTree Commit and Push](.\03_sourcetree_commit.png "SourceTree Commit and Push")
+![SourceTree Commit and Push](03_sourcetree_commit.jpg "SourceTree Commit and Push")
 
 ### Linux'a Özel İstemciler
 
@@ -29,10 +29,10 @@ SourceTree ücretsiz bir uygulamadır ve Mac OS X, Windows ve Linux işletim sis
 Tower, sadece Mac OS X'de çalışan ücretli bir uygulama.[Bu linki](http://www.git-tower.com/) kullanarak uygulamanın 30 günlük deneme sürümünü indirebilirsiniz.
 
 
-![Tower Repos](.\04_tower.png "Tower Repos")
-![Tower Working Copy](.\05_tower_workingcopy.png "Tower Working Copy")
-![Tower Commit History](.\06_tower_commithist.png "Tower Commit History")
-![Tower Conflict View](.\07_tower_conflict "Tower Conflict View")
+![Tower Repos](04_tower.jpg "Tower Repos")
+![Tower Working Copy](05_tower_workingcopy.jpg "Tower Working Copy")
+![Tower Commit History](06_tower_commithist.jpg "Tower Commit History")
+![Tower Conflict View](07_tower_conflict.jpg "Tower Conflict View")
 
 ## GitHub
 Projelerinizin kaynak kodunu [GitHub'da](http://www.github.com "GitHub") tutuyorsanız GitHub'ın ücretsiz Mac OS X ve Windows için geliştirdiği kullanımı oldukça kolay olan ve Git'in karmaşasından sizi bir nebze olsun uzaklaştırabilecek uygulamasını kullanabilirsiniz. Bu uygulamanın Mac OS X versiyonunu [buradan](https://mac.github.com) ve Windows versiyonunu da [buradan](https://windows.github.com) indirebilirsiniz.
