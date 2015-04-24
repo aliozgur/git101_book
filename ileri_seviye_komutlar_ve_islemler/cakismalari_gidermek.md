@@ -21,7 +21,7 @@ Ancak bazı durumlarda Git merge işlemini otomatik olarak gerçekleştiremez ve
 
 Yukarıdaki ekran görüntüsünde **dosya1.md** isimli dosyamızda çakışma olduğunu görebiliriz. Bu çakışmayı düzeltmek için dosyamızı açıp çakışan satırları düzeltmemiz gerekiyor.
 
-![dosya1.md](.\05_dosya1.png "dosya1.md")
+![dosya1.md](05_dosya1.png "dosya1.md")
 
 dosya1.md dosyasını açtığımızda yukarıdakine benzer bir görüntü ile karşılaşıyoruz.
 
@@ -29,7 +29,7 @@ dosya1.md dosyasını açtığımızda yukarıdakine benzer bir görüntü ile k
 * ** ================ ** belirtecinden sonraki kısım da değişiklikleri entegre etmek istediğiniz branch'de yer alan dosyanın içeriğini gösterir.
 
 > **$ git mergetool dosya1.md** komutunu çalıştırarak önceki bölümlerde konfigürasyon ayarlarını yaptığımız DiffMerge uygulamasını da açabilirsiniz.
-![diff merge](.\06_diff_merge.png "diff merge")
+![diff merge](06_diff_merge.png "diff merge")
 
 
 Dosyamızın içeriğinin ne olacağına karar verip kaydettikten sonra normal bir commit işlemi ile çakışmayı çözme işlemini tamamlıyoruz.
