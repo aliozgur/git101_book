@@ -9,19 +9,19 @@ Gelin şimdi **git branch** komutunun basit kullanımı ile ilgili birkaç örne
 
 Branch'inizi oluşturduktan sonra **git branch** komutunu çalıştırdığınızda git size projeniz için oluşturduğunuz tüm branch'leri listeler ve aktif olan branch'i başınada ** * ** simgesi olacak şekilde gösterir.
 
-![git branch](./03_git_branch.png "git branch")
+![git branch](03_git_branch.jpg "git branch")
 
 > **git status** komutunu çalıştırdığınızda da aktif olan branch "On branch ...." ifadesi ile gösterilir
-![git status](./05_git_status.png "git status")
+![git status](05_git_status.jpg "git status")
 
 
 Branch'leriniz ile ilgili daha fazla ayrıntı görmek için ise **git branch** komutunu **-v** parametresi ile çalıştırabilirsiniz.
 
-![git branch -v](./04_git_branch_v.png "git branch -v")
+![git branch -v](04_git_branch_v.jpg "git branch -v")
 
 Yeni oluşturduğumuz branch ile çalışmaya başlamadan önce gelin bir defa daha **git status** komutu ile projemizin ne durumda olduğuna bakalım.
 
-![git status](./06_check_status.png "git status")
+![git status](06_check_status.jpg "git status")
 
 Yukarıdaki ekran görüntüsünde de gördüğümüz üzere aktif olan **master** branch'imizde *dosya2.md* isimli dosyamızda henüz commit etmediğiniz bir değişiklik var. Bu dosyadaki değişikliğin yeni eklediğimiz branch'de yer almasını istemediğimizi ve henüz tam anlamıyla bitirilmediğini varsayalım. Bu durumda dosyadaki değişikliği commit mi etmeliyiz yoksa tamamen göz ardı mı etmeliyiz?
 

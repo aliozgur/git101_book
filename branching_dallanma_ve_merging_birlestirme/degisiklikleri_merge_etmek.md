@@ -16,15 +16,15 @@ Git'de merge işlemi çok basit iki adımda yapılır.
 1. **git checkout** komutu ile değişikliklerin aktarılacağı hedef branch'inizi aktif (HEAD) hale getirirsiniz.
 2. **git merge <kaynak branch>** komutu ile kaynak branch'deki commit edilmiş değişiklikleri HEAD'e entegre edilir
 
-![Git Merge](.\12_gitmerge.png "Git Merge")
+![Git Merge](12_gitmerge.jpg "Git Merge")
 
 Merge işleminden sonra **git log** komutunu çalıştırdığınızda ise hangi değişikliklerimizin (commit) **master** branch'imize entegre edildiğini (merge) kolayca görebilirsiniz.
 
-![Git Merge -> Log ](.\13_gitmerge_log.png "Git Merge -> Log")
+![Git Merge -> Log ](13_gitmerge_log.jpg "Git Merge -> Log")
 
 Ancak Git merge işlemini her zaman bu kadar sade bir şekilde yapamaz, yani Git her zaman kaynak branch'inizdeki commit'lerinizi HEAD'e sırasıyla entegre edemeyebilir. Bu durum genellikle hedef branch'de ve kaynak branch'de birbirinden bağımsız değişikliklerin yapılması durumunda gündeme gelecektir. Bu durumda Git "merge commit" adı verilen ve hedeh ve kaynak branch'deki en son commit ile gerçekleşen değişiklikleri birleştiren otomatik bir commit adımı ekledikten sonra merge işlemini gerçekleştirir.
 
-![Merge Commit](.\14_merge_commit.png "Merge Commit")
+![Merge Commit](14_merge_commit.jpg "Merge Commit")
 *[Görsel : Tower-Learn Git sayfasından alıntıdır](http://www.git-tower.com/learn/ebook/command-line/branching-merging/merging#start "Git Merge")*
 
 > Bazı durumlarda Git birden fazla otomatik **merge commit** oluşturmak zorunda kalabilir. Bu durumda sizin hangi **merge conflict** noktasını seçip işlemin devam etmesini istediğinizi belirtmeniz gerekecektir (Merge Conflict Resolution)
