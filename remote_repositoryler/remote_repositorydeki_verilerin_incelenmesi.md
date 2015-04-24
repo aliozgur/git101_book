@@ -2,7 +2,7 @@
 
 **git clone** komutu remote bir repository'yi yerel diskimize indirdikten sonra **git branch -va** komutunu çalıştırdığımızda aşağıdaki görüntüde yer alan bilgiler listelenecektir.
 
-![git branch -va](.\02_git_branch_va.png "git branch -va")
+![git branch -va](02_git_branch_va.jpg "git branch -va")
 
 Dikkat edecek olursanız local repository'lerimiz hala yerinde duruyor ancak listemizde ilave olarak **origin/HEAD** ve **origin/master** isimli iki remote kaydı var. Pekiyi daha önceki bölümde **git add git101_ornek <git remote adresi>** komutu ile oluşturduğumuz remote repository kayıtlarımız neden listlenmiyor? Bunun nedeni önceki bölümde kullandığımız **git add** komutu ile local ve remote repository arasında sadece bir ilişki/bağlantı tanımladık, aslında bu komut sonrasında local ve remote arasında herhangi bir veri trasferi gerçekleşmez.
 
@@ -10,17 +10,17 @@ Dikkat edecek olursanız local repository'lerimiz hala yerinde duruyor ancak lis
 
 Git'in remote repository ile ilgili yerel diskinizde tuttuğu bilgileri güncellemesini sağlamak için **git fetch** komutunu kullanmanız gerekir.
 
-![git fetch](.\03_git_fetch.png "git fetch")
+![git fetch](03_git_fetch.jpg "git fetch")
 
 Fetch komutu yerel diskinizdeki branchlerinize ve Working Copy'deki dosyalarınızı güncellemez veya değiştirmez. Bu komut ile sadece takım arkadaşlarınızın remote repository'de yayınladıkları değişikliklere ilişkin bilgiler yerel diskinize indirilir. Daha sonra bu değişikliklerden hangilerini hangi local branch'e entegre edeceğinize kendiniz karar verebilirsiniz.
 
 Bu işlemden sonra tekrar **git branch -va** komutunu çalıştırdığımızda **gitornek_101/master** isimli remote repositorymizdeki branchlere ilişkin bilgileri de görebiliriz.
 
-![git branch -va](.\04_git_fetch.png "git banch -va")
+![git branch -va](04_git_fetch.jpg "git banch -va")
 
 Bilgilerini güncellediğimiz git101_ornek/master isimli branch'de değişiklikler yapmak için öncelikle bu branch'i baz alarak yeni bir local branch oluşturup dosyaların Working Copy alanımıza kopyalanmasını sağlamamız gerekiyor. Bunun için **git checkout** komutunu **--track** parametresi ile kullnıyoruz.
 
-![git checkout --track](.\05_git_checkout_track.png "git checkout --track")
+![git checkout --track](05_git_checkout_track.jpg "git checkout --track")
 
 **git checkout --track** komutu ile aşağıdaki işlemler gerçekleşir
 
@@ -36,7 +36,7 @@ bilgisi Git tarafından "Tracking Relationship" tanımı sayesinde **git status*
 
 Local branch'imizi hazırladığımıza göre gelin şimdi birkaç değişiklik yapalım. Bu değişiklikleri yaptıktan sonra her zamanki gibi önce değişikliklerimizi Staging Area'ya alıyoruz ve sonrasında da commit işlemini gerçekleştirerek local repository'de versyon kontrolüne ilişkin işlemlerimizi bitiriyoruz. Son adım olarak da **git push** komutu ile localdeki bu değişikliklerimizi remote branch'de yayınlıyoruz.
 
-![git push](.\06_git_push.png "git push")
+![git push](06_git_push.jpg "git push")
 
 >**git push** push komutu aslında **git push <remote branch adı> <local branch adı>** formatındadır. Ancak local branch'imizi oluştururken kullandığımız *track* parametresi sayesinde kurulan "Takip İlişkisi" sayesinde push komutunun uzun hali yerine sade hali olan **git push** formatında kullanabiliyoruz.
 

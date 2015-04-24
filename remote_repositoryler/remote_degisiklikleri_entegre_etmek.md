@@ -2,7 +2,7 @@
 
 Takım arkadaşlarınız kendi değişikliklerini tamamlayıp remote branch'de yayınladıktan sonra siz de bu değişiklikleri inceleyip kendi local branch'inize entegre ederek çalışmanıza devam edebilirsiniz. Ancak remote branch'deki değişiklikleri entegre etmeden önce bu değişikliklere ilişkin bilgileri (dosyaları değil sadece değişikliklere dair Git'de tutulan bilgiler) görmeniz ve incelemeniz gerekir.
 
-![git fetch](.\07_git_fetch.png "git fetch")
+![git fetch](07_git_fetch.jpg "git fetch")
 
 Remote branch'deki değişiklikler idirmek için **git fetch** komutunu kullanıyoruz. Git fetch komutuna geçilen *origin* değeri ise daha önceki bölümlerde gösterdiğimiz *remotes/origin/master* isimli remote branch bağlantısına referans vermek için kullanılır.
 > *origin* değeri **git fetch** komutunun bir parçası değil sadece bir parametre. Origin yerine daha önce local branchimiz ile bağlantısını/ilişkisini kurduğumuz herhangi bir remote branch'i gösteren bir değer olabilir.

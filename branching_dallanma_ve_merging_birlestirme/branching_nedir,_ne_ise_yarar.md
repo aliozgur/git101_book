@@ -30,7 +30,7 @@ Uzun lafın kısası projenizdeki değişiklikleri profesyonel bir yaklaşımla 
 ## Neyse ki branching var
 Branching bir önceki bölümde değindiğimiz tüm sorunların önüne geçmek için kullanabileceğimiz bir araç ve yaklaşımdır. Branching ile farklı bağlamları birbirinde kolayca izole ederek her birini kolayca ve ayrı ayrı yönetebilirsiniz.
 
-![Branching](./01_branching.png "Branching")
+![Branching](01_branching.jpg "Branching")
 
 *[Görsel : Atlassian Git Workflows sayfasından alıntı](https://www.atlassian.com/git/workflows "Git Workflows")*
 
