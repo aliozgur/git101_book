@@ -4,7 +4,7 @@
 
 
 ### Atlassian SourceTree
-SourceTree ücretsiz bir uygulamadır ve Mac OS X, Windows ve Linux işletim sistemlerinde çalışmaktadır.
+SourceTree ücretsiz bir uygulama. SourceTree'yi Mac OS X ve Windows işletim sistemlerinde kullanabilirsiniz.
 
 
 [SourceTree'yi bu linkten indirebilirsiniz](http://www.sourcetreeapp.com/)
