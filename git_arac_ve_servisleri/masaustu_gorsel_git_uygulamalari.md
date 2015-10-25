@@ -16,14 +16,6 @@ SourceTree ücretsiz bir uygulama. SourceTree'yi Mac OS X ve Windows işletim si
 
 ![SourceTree Commit and Push](03_sourcetree_commit.jpg "SourceTree Commit and Push")
 
-### Linux'a Özel İstemciler
-
-* [GitEye](http://www.collab.net/products/giteye) : Linux'un yanısıra OSX ve Windows işletim sistemlerinde de kullanılabilir.
-* [gitg](https://wiki.gnome.org/Apps/Gitg/)
-* [giggle](https://wiki.gnome.org/Apps/giggle/)
-* [GitForce](http://gdevic.github.com/GitForce)
-* [RabbitVCS](http://www.rabbitvcs.org/)
-
 ### Tower
 
 Tower, sadece Mac OS X'de çalışan ücretli bir uygulama.[Bu linki](http://www.git-tower.com/) kullanarak uygulamanın 30 günlük deneme sürümünü indirebilirsiniz.
@@ -41,6 +33,20 @@ Projelerinizin kaynak kodunu [GitHub'da](http://www.github.com "GitHub") tutuyor
 ## TortoiseGit
 
 Windows kullananlar ücretsiz bir uygulama olan Tortoise Git uygulamasını [bu linkten](https://code.google.com/p/tortoisegit/) indirip kullanabilirler. Özellikle daha önce Subversion ve  TortoiseSVN kullananlar için TortoiseGit benzer bir deneyim sunmaktadır.
+
+### Multiplatform İstemciler
+
+* [GitEye](http://www.collab.net/products/giteye)
+* [SmartGit](http://www.syntevo.com/smartgit/)
+
+### Linux'a Özel İstemciler
+
+* [gitg](https://wiki.gnome.org/Apps/Gitg/)
+* [giggle](https://wiki.gnome.org/Apps/giggle/)
+* [GitForce](http://gdevic.github.com/GitForce)
+* [RabbitVCS](http://www.rabbitvcs.org/)
+
+
 
 ## Diğer Uygulamalar
 Diğer görsel Git uygulamalarını Git'in [kendi sayfasından](http://git-scm.com/downloads/guis) inceleyebilirsiniz.
