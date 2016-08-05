@@ -10,7 +10,7 @@ Branching denilen yöntem aslında Git dışındaki diğer versiyon kontrol sist
 
 Daha önceki bölüm'ün son alt başlığında (git commit) zaman zaman bireysel olarak kısa zaman dilimlerinde aynı projenin farklı özellikleri ile ilgili değişiklikler yapılması gerekebileceğinden bahsetmiştik. Büyük projelerde ise bu durum kişisel bir tercih olmaktan çıkıp iş bölümü/uzmanlık gibi kriterlere bağlı olarak proje/ürün yönetiminin önemli bir parçası halinde ele alınır. Örneğin 5 kişilik bir ekibin her bir üyesi aynı yazılımın farklı özellikleri ile ilgili çalışabilir veya iki farklı kişi aynı özelliğin farklı şekillerde nasıl geliştirilebileceği ile ilgili deneysel çalışma yapıyor olabilirler. Bahsettiğim tüm bu alternatif senaryolar aslında kendi yaşam döngüleri olabilen, çoğu zaman kısa veya uzun süreli eş zamanlı ilerleyen farklı birer **bağlama** denk gelir.
 
-Pratikte üzerinde çalıştığınız projenin/yazılımın her zaman son stabil durumu yansıtan **ana** bir bağlamı ve X numaralı hata bildiriminin düzeltilmesi, yeni bir Y özelliği üzeirnde yapılan çalışma veya deneysel bir özellik ile ilgili yapılan çalışma gibi birden fazla yan bağlamı olacaktır.
+Pratikte üzerinde çalıştığınız projenin/yazılımın her zaman son stabil durumu yansıtan **ana** bir bağlamı ve X numaralı hata bildiriminin düzeltilmesi, yeni bir Y özelliği üzerinde yapılan çalışma veya deneysel bir özellik ile ilgili yapılan çalışma gibi birden fazla yan bağlamı olacaktır.
 
 ## Branching olmasa da olur mu?
 
