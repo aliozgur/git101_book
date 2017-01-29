@@ -1,13 +1,13 @@
 # Branch'ler İle Çalışmak
 
-Git'de branch kullanımı tercihe bağlı değildir, aslında farkında olmasanız bile projeniz üzerinde çalışırken her zaman aktif tek bir branch üzerinde çalışırsınız. Git'de projenizi ilk oluşturduğunuzda Git varsayılan olarak sizin için **master** adı veilen bir branch oluşturur ve siz bu branch üzerinde çalışmaya başlarsınız.
+Git'de branch kullanımı tercihe bağlı değildir, aslında farkında olmasanız bile projeniz üzerinde çalışırken her zaman aktif tek bir branch üzerinde çalışırsınız. Git'de projenizi ilk oluşturduğunuzda Git varsayılan olarak sizin için **master** adı verilen bir branch oluşturur ve siz bu branch üzerinde çalışmaya başlarsınız.
 
 Gelin şimdi **git branch** komutunun basit kullanımı ile ilgili birkaç örnek görelim.
 
 ** git branch deneme** komutunu çalıştırdığınızda git sizin için projenizdeki dosyaların o anki halini barındıran **deneme** isimli bir branch oluşturur.
 > Git **git branch** komutu ile oluşturduğunuz yeni branch'i otomatik olarak aktif hale getirmez.
 
-Branch'inizi oluşturduktan sonra **git branch** komutunu çalıştırdığınızda git size projeniz için oluşturduğunuz tüm branch'leri listeler ve aktif olan branch'i başınada ** * ** simgesi olacak şekilde gösterir.
+Branch'inizi oluşturduktan sonra **git branch** komutunu çalıştırdığınızda git size projeniz için oluşturduğunuz tüm branch'leri listeler ve aktif olan branch'i başına da ** * ** simgesi olacak şekilde gösterir.
 
 ![git branch](03_git_branch.jpg "git branch")
 
@@ -29,6 +29,6 @@ Yukarıdaki ekran görüntüsünde de gördüğümüz üzere aktif olan **master
 <p style="color:darkgray">Versyon Kontrolünün Altın Kuralları</p>
 <p style="font-weight:bold">#4 Yarım Yamalak Değişiklikleri Asla Commit etmeyin </p>
 <p>
-Tam anlamıyla bitirmediğiniz ve test etmediğiniz bir değişikliği asla commit etmeyin. Üzerinde çalışacağınız değişiklikleri planlarken bu değişiklikleri mümkün olduğunca küçük parçalar halinde ele almaya özen gösterirseniz yağtığınız değişiklikleri kayıt altına almak için henüz tamamlanmamış değişiklikleri commit etmek zorunda kalmazsınız. Buna rağmen ara safhada kayıt altına almak istediğiniz değişikliker olursa Git'in **Stash** özelliğini kullanabilirsiniz.
+Tam anlamıyla bitirmediğiniz ve test etmediğiniz bir değişikliği asla commit etmeyin. Üzerinde çalışacağınız değişiklikleri planlarken bu değişiklikleri mümkün olduğunca küçük parçalar halinde ele almaya özen gösterirseniz yaptığınız değişiklikleri kayıt altına almak için henüz tamamlanmamış değişiklikleri commit etmek zorunda kalmazsınız. Buna rağmen ara safhada kayıt altına almak istediğiniz değişiklikler olursa Git'in **Stash** özelliğini kullanabilirsiniz.
 </p>
 </div>

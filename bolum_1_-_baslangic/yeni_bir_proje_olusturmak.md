@@ -15,9 +15,9 @@ komutu ile proje klasörünüz altındaki dosyaları listelediğinizde klasörü
 
 Tüm geliştirme ortamları ve işletim sistemlerinde kullandığımız araçlar tarafından ara bir ürün olarak üretilen ve aslında doğrudan versiyon kontrolü altına almak istemediğimiz dosya veya klasörler olacaktır. Örneğin Mac OS X'in otomatik olarak ürettiği gizli *DS_Store* isimli klasör veya C++ derleyicileri tarafından üretilen *.o* uzantılı *obj* dosyaları gibi. Hangi dosyaların versiyon kontrolü altında tutulacağına ve hangilerinin göz ardı edileceğine Git otomatik olarak karar vermez, bu kararı sizin vermeniz gerekir.
 
-> Kullandığınız geliştirme araçlarına bağlı olarak hangi dosyaların göz ardı edilebileceği ile ilgili GitHub'in yayınladığı [derlemeye](https://github.com/github/gitignore) göz atabilirsiniz.
+> Kullandığınız geliştirme araçlarına bağlı olarak hangi dosyaların göz ardı edilebileceği ile ilgili GitHub'ın yayınladığı [derlemeye](https://github.com/github/gitignore) göz atabilirsiniz.
 
-Versiyon kontrolü altına almak istemediğiniz dosya ve klasörleri tanımlamak için proje klasörüne eklenen *.gitignore* dosyası kullanılır. Bu dosya'ya göz ardı etmek istediğiniz dosya ve klasörlerin tespit edilebilmesi için doğrudan isimler veya basit kurallar ekleriz. Projelerinizi versiyon kontrolü altına aldıktan sonra ilk iş olarak GitHub'in yayınladığı derlemeyi veya kendi deneyiminiz ve bilginiz ile karar vereceğiniz dosya ve klasörleri **.gitignore** dosyasına ekleyiniz. Projenizin ilerleyen aşamalarında bu işlemi yapmanız biraz daha zahmetli olacaktır.
+Versiyon kontrolü altına almak istemediğiniz dosya ve klasörleri tanımlamak için proje klasörüne eklenen *.gitignore* dosyası kullanılır. Bu dosyaya göz ardı etmek istediğiniz dosya ve klasörlerin tespit edilebilmesi için doğrudan isimler veya basit kurallar ekleriz. Projelerinizi versiyon kontrolü altına aldıktan sonra ilk iş olarak GitHub'ın yayınladığı derlemeyi veya kendi deneyiminiz ve bilginiz ile karar vereceğiniz dosya ve klasörleri **.gitignore** dosyasına ekleyiniz. Projenizin ilerleyen aşamalarında bu işlemi yapmanız biraz daha zahmetli olacaktır.
 
 Şimdi gelin *.gitignore* dosyasında kuralları nasıl tanımlayabileceğimize bir göz atalım
 
@@ -29,10 +29,10 @@ Versiyon kontrolü altına almak istemediğiniz dosya ve klasörleri tanımlamak
 
 * Boş satırlar veya # ile başlayan satırlarda yaptığınız tanımlamalar Git tarafından dikkate alınmaz.
 * \*, ?, [ ], { }, [!] ve \ gibi karakterler kullanılarak oluşturulan ve  *[globbing patterns](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm)* adı verilen tanımlayıcılar kullanabilirsiniz
-* Klasörleri belirtmek için **/** karekteri kullanılır. Örneğin **/projemde/versiyon/kontrolü/istemedigim/bir/klasor/** şeklinde bir tanım yaptığımızda ilgili klasör ve altındaki tüm dosyalar Git tarafından göz ardı edilir.
+* Klasörleri belirtmek için **/** karakteri kullanılır. Örneğin **/projemde/versiyon/kontrolü/istemedigim/bir/klasor/** şeklinde bir tanım yaptığımızda ilgili klasör ve altındaki tüm dosyalar Git tarafından göz ardı edilir.
 * Tanımladığınız bir kuralın tersini **!** simgesi ile tanımlarız. Örneğin *!/projemin/kaynak/kodu/* şeklinde bir tanım yaptığımızda bu klasör dışındaki tüm klasör ve dosyalar Git tarafından göz ardı edilecektir.
 
-## İlk commitimiz
+## İlk commit’imiz
 Projemizi versiyon kontrolüne alıp göz ardı edilmesini istediğimiz klasör ve dosyaları da belirledikten sonra aşağıdaki komutlar ile ilk commit işlemimizi yapabiliriz
 
     $ git add -A
@@ -43,4 +43,4 @@ Bu komutların ne işe yaradığına sonraki bölümlerde değineceğiz, şimdil
 * İkinci komutun ise dosyalarımızın bir açıklama ile commit edilmesi için
 kullanıldığını söylemek ile yetinelim.
 
-> Yukarıdaki iki komut'u arka arkaya kullanmak yerine aynı işlemi *git commit -a* komutu ile de yapabiliriz.
+> Yukarıdaki iki komutu arka arkaya kullanmak yerine aynı işlemi *git commit -a* komutu ile de yapabiliriz.

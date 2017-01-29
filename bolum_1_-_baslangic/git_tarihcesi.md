@@ -12,4 +12,4 @@ Linux ekibi BitKeeper ile olan deneyimlerini de dikkate alarak öncelikli olarak
 * Tamamen dağıtık
 * Büyük projeleri destekleyebilecek
 
-2005 yılından bugüne Git gelişmeye devam ediyor. Git'e yeni eklenen özelliklere rağmen Git bugün bile yukarıda bahsettiğim öncelikli kriterlerden taviz vermeden miliyolarca yazılım geliştiricinin hayatını kolaylaştırmaya devam ediyor.
+2005 yılından bugüne Git gelişmeye devam ediyor. Git'e yeni eklenen özelliklere rağmen Git bugün bile yukarıda bahsettiğim öncelikli kriterlerden taviz vermeden milyonlarca yazılım geliştiricinin hayatını kolaylaştırmaya devam ediyor.
