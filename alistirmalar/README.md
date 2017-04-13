@@ -5,7 +5,7 @@ Bu depoda "Git ile Versiyon Kontrolü" kitabında ele alınan konuları da kapsa
 > **NOT:** İnternet tarayıcınızı kullanarak Git komutlarını çalıştırmak için Code School tarafından hazırlanan [Try Git](http://try.github.com/) sayfasını da kullanabilirsiniz
 
 # Gün gün alıştırmalar
-* [Gün 1 - İstemci Kurulumları](Gun_01.md)
+* [Gün 1 - İstemci Kurulumları](alistirmalar/Gun_01.md)
 * [Gün 2 - Yerel Depo Oluşturma](Gun_02.md)
 * [Gün 3 - Klonlama](Gun_03.md)
 * [Gün 4 - Değişiklikleri kaydetme](Gun_04.md)
