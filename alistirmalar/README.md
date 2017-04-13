@@ -16,5 +16,3 @@ Bu depoda "Git ile Versiyon Kontrolü" kitabında ele alınan konuları da kapsa
 * [Gün 9 - Değişiklikleri Birleştirme (Merge)](Gun_09.md)
 * [Gün 10 - Rebase](Gun_10.md)
 * [Gün 11 - Birlikte Çalışma (Collaboration)](Gun_11.md)
-
-# [Alıştırmalara Başla](../../wiki)
