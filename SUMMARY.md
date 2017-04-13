@@ -33,7 +33,7 @@
   * [Diff/Merge Araçları](git_arac_ve_servisleri/diffmerge_araclari.md)
   * [Git Servisleri](git_arac_ve_servisleri/cevrimici_git_servisleri.md)
   * [Kaynakça ve Referanslar](git_arac_ve_servisleri/kaynakca_ve_referanslar.md)
-* [Git ile Versiyon Kontrolü - Günlük Alıştırmalar ile Tekrar](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar.md)
+* [Git ile Versiyon Kontrolü - Günlük Alıştırmalar ile Tekrar](alistirmalar/README.md)
   * [1.Gün: İstemci Kurulumları](alistirmalar/Gun_01.md)
   * [2.Gün: Yerel Depo Oluşturma](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/2.gun-yerel-depo-olusturma.md)
   * [3.Gün: Klonlama](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/3.gun-klonlama.md)
