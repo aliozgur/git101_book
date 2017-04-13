@@ -1,10 +1,10 @@
 # 7.Gün: Commit Edilmiş Değişiklikleri Silmek
 
-Bu bölüme kadar değişiklikleri geri almanın iki yöntemini ele aldık, hatırlatmak gerekirse
+Bu bölüme kadar değişiklikleri geri almanın üç yöntemini ele aldık, hatırlatmak gerekirse
 
-* Track edilmeyen dosyalardaki (unstaged) değişiklikleri iptal etmek için git checkout <dosya_adı>
-* Track edilen fakat henüz commit edilmemiş (staged) dosyalardaki değişiklikleri iptal etmek için ise git reset HEAD <dosya_adı> 
-* Commit edilmiş bir değişikliği proje tarihçesini bozmadan git revert <commit_hash>
+* Track edilmeyen dosyalardaki (unstaged) değişiklikleri iptal etmek için **git checkout [dosya_adı]**
+* Track edilen fakat henüz commit edilmemiş (staged) dosyalardaki değişiklikleri iptal etmek için **git reset HEAD [dosya_adı]** 
+* Commit edilmiş bir değişikliği proje tarihçesini bozmadan **git revert [commit_hash]**
 	
 komutlarını kullanabiliriz.
 
