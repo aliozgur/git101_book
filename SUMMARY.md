@@ -37,4 +37,7 @@
   * [1.Gün: İstemci Kurulumları](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/1.gun-istemci-kurulumlari.md)
   * [2.Gün: Yerel Depo Oluşturma](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/2.gun-yerel-depo-olusturma.md)
   * [3.Gün: Klonlama](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/3.gun-klonlama.md)
+  * [4.Gün: Değişiklikleri Kaydetme](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/4.gun-degisiklikleri-kaydetme.md)
+  * [5.Gün: Değişiklikleri Versiyon Kontrolüne Alma](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/5.gun-degisiklikleri-versiyon-kontrolune-alma.md)
+  * [6.Gün: Commit Edilmiş Değişiklikleri İptal Etmek](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/6.gun-commit-edilmis-degisiklikleri-iptal-etmek.md)
 
