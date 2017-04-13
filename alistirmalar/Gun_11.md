@@ -1,4 +1,4 @@
-11.Gün: Birlikte Çalışma (Collaboration)
+# 11.Gün: Birlikte Çalışma (Collaboration)
 
 Bu bölüme kadar ele aldığımız Git komutları ile kendi lokalimizde Git ile temel versiyon kontrol işlemlerini nasıl yapacağımız ile ilgili alıştırmalar yaptık. Bu bölümde ise takım çalışması için, tüm diğer versiyon kontrol sistemlerinde olduğu gibi, Git'in de bize sunduğu imkanlar ile ilgili alıştırmalar yapacağız .
 
