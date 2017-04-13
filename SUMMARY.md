@@ -34,12 +34,11 @@
   * [Git Servisleri](git_arac_ve_servisleri/cevrimici_git_servisleri.md)
   * [Kaynakça ve Referanslar](git_arac_ve_servisleri/kaynakca_ve_referanslar.md)
 * [Git ile Versiyon Kontrolü - Günlük Alıştırmalar ile Tekrar](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar.md)
-  * [1.Gün: İstemci Kurulumları](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/1.gun-istemci-kurulumlari.md)
+  * [1.Gün: İstemci Kurulumları](alistirmalar/Gun_01.md)
   * [2.Gün: Yerel Depo Oluşturma](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/2.gun-yerel-depo-olusturma.md)
   * [3.Gün: Klonlama](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/3.gun-klonlama.md)
   * [4.Gün: Değişiklikleri Kaydetme](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/4.gun-degisiklikleri-kaydetme.md)
   * [5.Gün: Değişiklikleri Versiyon Kontrolüne Alma](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/5.gun-degisiklikleri-versiyon-kontrolune-alma.md)
   * [6.Gün: Commit Edilmiş Değişiklikleri İptal Etmek](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/6.gun-commit-edilmis-degisiklikleri-iptal-etmek.md)
   * [7.Gün: Commit Edilmiş Değişiklikleri Silmek](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/7.gun-commit-edilmis-degisiklikleri-silmek.md)
-  * 8. Gün: Dal Oluşturmak
 
