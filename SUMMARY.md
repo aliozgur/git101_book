@@ -40,5 +40,5 @@
   * [4.Gün: Değişiklikleri Kaydetme](alistirmalar/Gun_04.md)
   * [5.Gün: Değişiklikleri Versiyon Kontrolüne Alma](alistirmalar/Gun_05.md)
   * [6.Gün: Commit Edilmiş Değişiklikleri İptal Etmek](alistirmalar/Gun_06.md)
-  * [7.Gün: Commit Edilmiş Değişiklikleri Silmek](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/7.gun-commit-edilmis-degisiklikleri-silmek.md)
+  * [7.Gün: Commit Edilmiş Değişiklikleri Silmek](alistirmalar/Gun_07.md)
 
