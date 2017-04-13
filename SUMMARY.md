@@ -41,4 +41,5 @@
   * [5.Gün: Değişiklikleri Versiyon Kontrolüne Alma](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/5.gun-degisiklikleri-versiyon-kontrolune-alma.md)
   * [6.Gün: Commit Edilmiş Değişiklikleri İptal Etmek](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/6.gun-commit-edilmis-degisiklikleri-iptal-etmek.md)
   * [7.Gün: Commit Edilmiş Değişiklikleri Silmek](git-ile-versiyon-kontrolu-gunluk-alistirmalar-ile-tekrar/7.gun-commit-edilmis-degisiklikleri-silmek.md)
+  * 8. Gün: Dal Oluşturmak
 
