@@ -70,7 +70,7 @@ git commit -m “Diğer daldaki değişiklik mesajınız”
 
 # rebase işlemini yapın
 git rebase master
-```bash
+```
 
 
 [<< Geri](Gun_09.md) | [İleri >>](Gun_11.md)
