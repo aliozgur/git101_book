@@ -41,4 +41,9 @@
   * [5.Gün: Değişiklikleri Versiyon Kontrolüne Alma](alistirmalar/Gun_05.md)
   * [6.Gün: Commit Edilmiş Değişiklikleri İptal Etmek](alistirmalar/Gun_06.md)
   * [7.Gün: Commit Edilmiş Değişiklikleri Silmek](alistirmalar/Gun_07.md)
+  * [8. Gün: Dal Oluşturmak](alistirmalar/Gun_08.md)
+  * [9.Gün : Değişiklikleri Birleştirme (Merge)](alistirmalar/Gun_09.md)
+  * [10.Gün: Rebase](alistirmalar/Gun_10.md)
+  * [11.Gün: Birlikte Çalışma (Collaboration)](alistirmalar/Gun_11.md)
+  
 
