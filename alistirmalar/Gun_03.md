@@ -4,7 +4,7 @@ Klonlama işlemi ile uzakta bulunan bir Git deposunu kendi bilgisayarımıza ind
 
 ## Kolonlama Hazırlık
 
-* **Adım-1,** 1. Gün, 3. Alıştırmada Github, Gitlab veya Bitbucket üzerinde oluşturduğunuz projesinin HTTP depo adresini öğrenmemiz gerekiyor. Bunun için kullandığınız Git servisinin sayfasına girip oluşturduğunuz deponun ana sayfasındaki “Clone” linkini kullanabilirsiniz.
+* **Adım-1,** 1. Gün, 3. Alıştırmada Github, Gitlab veya Bitbucket üzerinde oluşturduğunuz projenin HTTP depo adresini öğrenmemiz gerekiyor. Bunun için kullandığınız Git servisinin sayfasına girip deponuzun ana sayfasındaki “Clone” linkini kullanabilirsiniz.
 
 * **Adım-2,** Aşağıdaki iki komutu çalıştırarak Git'in uzak deponuza HTTP üzerinden bağlanırken kullanacağı kullanıcı adını ve şifremizi geçici bir süre için kaydedeceği store bilgisini tanımlamalıyız
 
@@ -13,15 +13,16 @@ Klonlama işlemi ile uzakta bulunan bir Git deposunu kendi bilgisayarımıza ind
 git config --global credential.helper wincred 
 
 # Uzak depo servis sağlayıcısı depoları için kullanılacak olan kullanıcı adı
-git config --global credential.https://<github.com|gitlab.com|bitbucket.com> <kullanıcı_adınız> 
+git config --global credential.https://<github.com|gitlab.com|bitbucket.com> <kullanıcı_adınız>
 ```
 
-Wincred ve kullanıcı adımızı tanımladıktan sonra git clone komutu ile Git Bash'den (veya Terminal) klonlama işlemi yapıldığında Git size şifrenizi soracak ve şifre girildikten sonra klonlama işlemi gerçekleştirilecek.
+Wincred ve kullanıcı adımızı tanımladıktan sonra git clone komutu ile Git Bash'den \(veya Terminal\) klonlama işlemi yapıldığında Git size şifrenizi soracak ve şifre girildikten sonra klonlama işlemi gerçekleştirilecek.
 
 > **DİKKAT:** Klonlama işlemi SourceTree veya Git Eye ile değil Git Bash veya Terminal ile komut satırından yapılacak. clone komutu ile ilgili yardım almak için git help clone komutunu kullanabilirsiniz.
 
 ## Alıştırma-1
-Uzak depodaki projenizi Git Bash (Terminal) kullanarak Git'in komut satırı komutları ile kendi bilgisayarınıza klonlayın ve sonrasında aşağıdaki komutları çalıştırın
+
+Uzak depodaki projenizi Git Bash \(Terminal\) kullanarak Git'in komut satırı komutları ile kendi bilgisayarınıza klonlayın ve sonrasında aşağıdaki komutları çalıştırın
 
 ```baseh
 # Proje klasörünüze konumlanın
@@ -46,8 +47,9 @@ git log -n 5
 ```
 
 ## Sorular
-**Soru-1:** ```git status``` komutunun çıktısında verilen bilgiyi nasıl yorumlamamamız lazım?
-**Soru-2:** ```git log``` komutunun çıktısında eklediğiniz dosyaya ilişkin herhangi bir bilgi görüyor musunuz?
 
+**Soru-1:** `git status` komutunun çıktısında verilen bilgiyi nasıl yorumlamamamız lazım?  
+**Soru-2:** `git log` komutunun çıktısında eklediğiniz dosyaya ilişkin herhangi bir bilgi görüyor musunuz?
 
-[<< Geri](Gun_02.md) | [İleri >>](Gun_04.md)
+[&lt;&lt; Geri](Gun_02.md) \| [İleri &gt;&gt;](Gun_04.md)
+
