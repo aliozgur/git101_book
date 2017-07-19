@@ -20,7 +20,7 @@ Git'de dosyalarınız genel olarak iki durumda olabilir
 Ancak git'de değişikliklerinizin kayıt altına alındığı üçüncü bir alan daha vardır ki buna **Staging Area** denir ve git'in en temel kavramlarından birisidir. Staging Area'yı, proje dosyalarımızdaki bir dizi değişikliği remote repository'ye göndermeden önce kayıt altında tuttuğunuz veri tabanı/alan olarak tanımlayabiliriz.
 
 <div style="padding:10px;border:1px solid #fcedd7;background-color:#fef9f1">
-<p style="color:darkgray">Versyon Kontrolünün Altın Kuralları</p>
+<p style="color:darkgray">Versiyon Kontrolünün Altın Kuralları</p>
 <p style="font-weight:bold">#1 Sadece Birbiri İle Alakalı Değişiklikleri Commit Edin</p>
 <p>
 Değişikliklerinizi commit etmeye karar verdiğinizde birbiri ile alakalı değişiklikleri tek bir commit olarak ele almaya özen gösterin. Birbiri ile alakalı olmayan değişiklikleri aynı commit ile versiyon kontrol sisteminde kayıt altına aldığınızda aşağıdakilere benzer sorunlar yaşama ihtimaliniz artacaktır
