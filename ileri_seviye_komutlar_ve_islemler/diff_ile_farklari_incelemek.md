@@ -20,11 +20,11 @@ git diff komutunu çalıştırdığımızda yukarıdaki gibi bir ekran ile karş
 
 ## Local Branch'deki farkları incelemek
 
-Daha önceki bölümlerde **git status** komutu ile Local branch'imizde hangi dosyaların değiştiğini görebileceğimizi örğrenmiştik. **git status** komutu ile dosyaların içeriğindeki değişiklikleri göremeyiz. İçerik değişikliklerini de görmek için doğrudan **git diff** komutunu herhangi bir parametre veya seçenek belirteden kullanabilirsiniz.
+Daha önceki bölümlerde **git status** komutu ile Local branch'imizde hangi dosyaların değiştiğini görebileceğimizi öğrenmiştik. **git status** komutu ile dosyaların içeriğindeki değişiklikleri göremeyiz. İçerik değişikliklerini de görmek için doğrudan **git diff** komutunu herhangi bir parametre veya seçenek belirtmeden kullanabilirsiniz.
 
 ![git diff](04_local_diff.jpg "git diff")
 
-Sadece Staging Area'ya commit edilmek üzere eklenmiş/çıkarılmış dosyalardaki değişiklikler görmek isterseniz **git diff --staged** komutunu kullanabilirsiniz.
+Sadece Staging Area'ya commit edilmek üzere eklenmiş/çıkarılmış dosyalardaki değişiklikleri görmek isterseniz **git diff --staged** komutunu kullanabilirsiniz.
 
 ## Commit edilmiş dosyalardaki farkları görmek
 
@@ -34,7 +34,7 @@ Sadece Staging Area'ya commit edilmek üzere eklenmiş/çıkarılmış dosyalard
 
 ## İki Farklı Branch'i Karşılaştırmak
 
-İki farklı branch'in arasındaki içerik farklarını görmek için *git diff* komutuna karşılaştırmak istediğiniz branch isimlerini paremetre olarak verebilirsiniz. Örneğin **master** ile **superyeniozellik** branch'ini karşılaştırmak için *git diff* komutu aşağıdaki gibi oalcaktır
+İki farklı branch'in arasındaki içerik farklarını görmek için *git diff* komutuna karşılaştırmak istediğiniz branch isimlerini parametre olarak verebilirsiniz. Örneğin **master** ile **superyeniozellik** branch'ini karşılaştırmak için *git diff* komutu aşağıdaki gibi olacaktır
 > **$ git diff master..superyeniozellik**
 
 Branch'leri karşılaştırabildiğiniz gibi iki farklı versiyon arasındaki tüm dosyaların içeriğini de versiyonların **hash** değerlerini *git diff* komutuna parametre olarak vererek karşılaştırabiliriz. Örneğin

@@ -14,7 +14,7 @@ Git'de değişikliklerinizi merge etme işlemi sırasında kaynak branch'inizde 
 
 Git'de merge işlemi çok basit iki adımda yapılır.
 1. **git checkout** komutu ile değişikliklerin aktarılacağı hedef branch'inizi aktif (HEAD) hale getirirsiniz.
-2. **git merge <kaynak branch>** komutu ile kaynak branch'deki commit edilmiş değişiklikleri HEAD'e entegre edilir
+2. **git merge <kaynak branch>** komutu ile kaynak branch'deki commit edilmiş değişiklikler HEAD'e entegre edilir.
 
 ![Git Merge](12_gitmerge.jpg "Git Merge")
 
