@@ -17,7 +17,7 @@ Pratikte üzerinde çalıştığınız projenin/yazılımın her zaman son stabi
 Net olarak birbirinden ayrılmış farklı bağlamlar oluşturmak için branching benzeri araçlar olmasaydı aşağıdakilere benzer senaryolarda nasıl davranacağımız konusunda sıkıntılar yaşayacaktık
 
 * Örneğin müşteriniz veya yöneticiniz iki alternatif sayfa tasarımından birincisini değil de ikincisini beğendi ve bu arada siz de sayfa tasarımı dışında birkaç tane bug fix ve birkaç tane de dokümantasyon değişikliğini farklı zamanlarda tamamladınız. Bu durumda müşterinizin beğendiği ikinci tasarımı diğer tüm düzenlemeleri kaybetmeden nasıl devreye alacaktınız?
-* Üzerinde çalıştığınız alış veriş sitesi için özel olarak geliştirdiğiniz Sepet modülü yerine 3. parti bir modül kullanılması kararı alındı ve sizin de kendi modülünüzü ana yazılımdan sökmeniz istendi. Bu durumda sökmeniz gereken modül kodunu tespit edip diğer modülleri etkilemeden nasıl sökecektiniz?
+* Üzerinde çalıştığınız alışveriş sitesi için özel olarak geliştirdiğiniz Sepet modülü yerine 3. parti bir modül kullanılması kararı alındı ve sizin de kendi modülünüzü ana yazılımdan sökmeniz istendi. Bu durumda sökmeniz gereken modül kodunu tespit edip diğer modülleri etkilemeden nasıl sökecektiniz?
 * Yeni geliştirdiğiniz Beni Haberdar Et işlevi yazılımınızın geri kalan özelliklerinin bir çoğunun değiştirilmesine sebep olmuşken birden Beni Haberdar Et işlevinin saçma ve gereksiz olduğuna karar verilseydi bu işlevi aradan geçen zamanda yazılımın farklı yerlerinde yapılan diğer değişikliklerden izole ederek nasıl çöpe atacaktınız?
 
 Birden fazla konu ile ilgili değişikliklerin tamamını tek bir bağlam ile yönetmeye çalışırsanız işler hızla sarpa saracaktır. Bu karmaşanın önüne geçmek için her bir değişiklik için projenizin tamamının farklı klasörlere kopyalamayı deneyebilirsiniz. Ancak bu durumda
@@ -37,7 +37,7 @@ Branching bir önceki bölümde değindiğimiz tüm sorunların önüne geçmek 
 Herhangi bir anda yaptığınız değişiklikler sadece aktif olarak üzerinde çalıştığınız branch'e (dal) yansıyacak diğer branch’ler bu değişikliklerden etkilenmeyecektir. Böylece aynı anda birden fazla branch üzerinde özgürce çalışabilirsiniz ve en önemlisi de bu çalışmalarınızdan bir kısmının çöpe dönmesinden çekinmeden denemelerinizi yapabilirsiniz.
 
 <div style="padding:10px;border:1px solid #fcedd7;background-color:#fef9f1">
-<p style="color:darkgray">Versyon Kontrolünün Altın Kuralları</p>
+<p style="color:darkgray">Versiyon Kontrolünün Altın Kuralları</p>
 <p style="font-weight:bold">#3 Branch'leri Bol Bol Kullanın </p>
 <p>
 Branch’ler git'in en güçlü özelliklerinden birisidir. Hızlı ve kullanımı kolay branching mekanizması git'in tasarımında ilk gününden itibaren ciddi bir gereksinim olarak ele alınmıştır. Branch'ler farklı bağlamlarda çalışmaktan kaynaklanabilecek karmaşanın önüne geçmek için biçilmiş kaftandır. Branch'leri bug fix'ler, yeni özellikler üzerinde çalışmak veya deneysel özellikleri geliştirmek için bol bol kullanın.
