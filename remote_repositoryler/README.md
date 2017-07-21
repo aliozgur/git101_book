@@ -2,7 +2,7 @@
 
 Günlük çalışmamız sırasında staging ve commit gibi versiyon kontrolü ile ilgili işlemlerin çoğunu yerel diskimizde yer alan local repository üzerinde yaparız. Proje'de çalışan tek kişi siz iseniz muhtemelen Internet'de veya yerel ağıda yer alan remote bi repository oluşturmanıza da gerek olmayacaktır.
 
-Ancak takım çalışması söz konusu olduğunda, takımdaki geliştiricilerin birlikte çalışabilmesi için herkesin değişikliklerini ortak bir alanda yayınlaması ve diğerlerinin de bu ortak alan üzerinden bu değişiklikleri kendi branch'lerine entegre etmesi gerekecektir. Bu durumda başvuracağınız en etkin araç Git'deki Remote Repository işlevleridir. Remote repository'leri en basit anlamda tüm ekibin erişimi olan dosyal sunucusu olarak düşünebilirsiniz.
+Ancak takım çalışması söz konusu olduğunda, takımdaki geliştiricilerin birlikte çalışabilmesi için herkesin değişikliklerini ortak bir alanda yayınlaması ve diğerlerinin de bu ortak alan üzerinden bu değişiklikleri kendi branch'lerine entegre etmesi gerekecektir. Bu durumda başvuracağınız en etkin araç Git'deki Remote Repository işlevleridir. Remote repository'leri en basit anlamda tüm ekibin erişimi olan dosya sunucusu olarak düşünebilirsiniz.
 
 Gelin şimdi Local ve Remote repository'leri birbirinden ayıran temel özelliklere göz atalım
 
@@ -10,7 +10,7 @@ Gelin şimdi Local ve Remote repository'leri birbirinden ayıran temel özellikl
 Local repository'ler geliştiricilerin kendi bilgisayarlarında yer alırken Remote repository'ler, çoğunlukla internet olmak üzere, ekipteki herkesin erişebileceği bir sunucuda yer alırlar.
 
 ## Özellikler
-Teknik olarak remote repository'ler ile local repositoryler arasında bir fark yoktur. Local repository'ler için önceki bölümlerde ele aldığımız commit işlemi, branch oluşturma gibi işlemlerin tamamı remote repository'ler için de yapılabiliyor. Ancak tüm bu benzerliklere rağmen remote repository'ler için Working Copy (aktif branch'deki dosyaların diskimizdeki kopyaları) yapısı geçerli değildir, remote rpository'lerde sadece Git'in veritabanının tutulduğu **.git** klasörü yer alır.
+Teknik olarak remote repository'ler ile local repositoryler arasında bir fark yoktur. Local repository'ler için önceki bölümlerde ele aldığımız commit işlemi, branch oluşturma gibi işlemlerin tamamı remote repository'ler için de yapılabiliyor. Ancak tüm bu benzerliklere rağmen remote repository'ler için Working Copy (aktif branch'deki dosyaların diskimizdeki kopyaları) yapısı geçerli değildir, remote repository'lerde sadece Git'in veri tabanının tutulduğu **.git** klasörü yer alır.
 
 ## Repository Oluşturma
 Local bir repository ancak iki şekilde oluşturulabilir

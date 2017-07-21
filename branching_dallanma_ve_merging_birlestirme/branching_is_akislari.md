@@ -5,8 +5,8 @@ Nasıl kullanıldıklarına bağlı olarak branch'leri iki ana grup altında top
 ## Kısa Vadeli / Konu Bazlı Branch'ler
 Daha önceki bölümlerde branch kullanımı noktasında elinizi korkak alıştırmamanız ile ilgili tavsiyelerde bulunduk. Örneğin yeni özellikleri kodlarken, bug fix yaparken veya deneysel özellikler ile ilgili çalışırken istediğiniz şekilde kolayca ve hızlı bir şekilde üstelik düşük maliyetli branch'ler oluşturabilirsiniz. Bu tür amaçlar için oluşturulan branch'lerin iki ortak özelliği vardır
 
-* Bu branch'ler tek konu veya değişiklik için oluşturulur. Örneğin size bildirilen bir hata için oluşturduğunuz branch üzerinde "GitHub İle Sisteme Giriş" benzeri yeni bir özelliği kodlamayız
-* Bu branch'ler üzerindeki çalışmanız göreceli kısa sürmektedir. Çalışmamız tamamlandığında bu branch'leri **master** veya daha geniş kapsamda tarif edilen bir branch'e merge edip sileriz
+* Bu branch'ler tek konu veya değişiklik için oluşturulur. Örneğin size bildirilen bir hata için oluşturduğunuz branch üzerinde "GitHub İle Sisteme Giriş" benzeri yeni bir özelliği kodlamayız.
+* Bu branch'ler üzerindeki çalışmanız göreceli kısa sürmektedir. Çalışmamız tamamlandığında bu branch'leri **master** veya daha geniş kapsamda tarif edilen bir branch'e merge edip sileriz.
 
 ## Uzun Soluklu Branch'ler
 
@@ -24,7 +24,7 @@ Yukarıda da belirttiğimiz gibi branch'in stratejileri ekibe ve projeye göre d
 ### Sadece bir tane uzun soluklu branch kullanın
 Daha önce de belirttiğimiz gibi birden fazla uzun soluklu branch kullanabilirsiniz ancak çoğu zaman bu tip bir yaklaşım karışıklıklara ve fazladan efor sarf etmek gibi zorluklara sebep olabilir. Tek bir uzun soluklu branch kullanmanız durumunda (genelde **master** ismi kullanılır) işiniz önemli miktarda sadeleşip kolaylaşacaktır.
 
-> Bu yaklaşım ile çalışmanız durumunda **master** branch'iniz projenizi stabil kodunu barındırmalıdır. Kodunuzun stabil olmasını garantilemek için **master** branch'e entegre edilen (merge) tüm değişikliklerin testler, kod okuma vs gibi kalite kontrol yöntemleri ile denetlenmesi gerekecektir. Bunun bir yansıması olarak değişikliklerin doğrudan **master** branch üzerinde yapılmaması gibi bir zorunluluk da doğacaktır. Eğer *git checkout master* ve sonrasında *git commit* komutlarını çalıştırıyorsanız bilin ki stabilite kuralını ihlal ediyorsunuz.
+> Bu yaklaşım ile çalışmanız durumunda **master** branch'iniz projenizin stabil kodunu barındırmalıdır. Kodunuzun stabil olmasını garantilemek için **master** branch'e entegre edilen (merge) tüm değişikliklerin testler, kod okuma vs gibi kalite kontrol yöntemleri ile denetlenmesi gerekecektir. Bunun bir yansıması olarak değişikliklerin doğrudan **master** branch üzerinde yapılmaması gibi bir zorunluluk da doğacaktır. Eğer *git checkout master* ve sonrasında *git commit* komutlarını çalıştırıyorsanız bilin ki stabilite kuralını ihlal ediyorsunuz.
 
 ### Konu Bazlı Branchler'i Bolca Kullanabilirsiniz
 

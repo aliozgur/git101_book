@@ -6,7 +6,7 @@ Merge komutu iki branch arasındaki değişiklikleri entegre etmenin en kolay yo
 
 Git merge işlemini gerçekleştirmeden önce aşağıdaki üç commit'i tespit eder
 
-* **İki branch'in ortak commit'i:** İki branch'in de tarihçesini daha yakından incelediğinizde bu branch'lerin zamanın bir noktasında ortak bir commit'e sahip olduklarını görürüz. Bu anda her iki branch'in de içeriği birerbir aynıdır.
+* **İki branch'in ortak commit'i:** İki branch'in de tarihçesini daha yakından incelediğinizde bu branch'lerin zamanın bir noktasında ortak bir commit'e sahip olduklarını görürüz. Bu anda her iki branch'in de içeriği bire bir aynıdır.
 * **Branch'lerin son commit'leri:** Her iki branch için de yapılan son commit'ler
 
 Bu üç commit tespit edildikten sonra Git bu üç commit'i birleştirerek entegrasyonu yapabilir.
@@ -17,15 +17,15 @@ Basit bazı durumlarda branch'lerden bir tanesinde herhangi bir değişiklik yap
 
 Fakat çoğu zaman her iki branch'de birbirinden bağımsız olarak değişikliğe uğrar ve tarihçe açısından birbirinden uzaklaşırlar. Bu durumda merge işlemini yapmak için Git'in her iki branch arasındaki değişiklikleri içeren otomatik bir commit oluşturması gerekir. Oluşturulan bu commit'e Git terminolojisinde **"Merge Commit"** denir.
 
-## Normal Commitleri ve Merge Commitleri Ayırdetmek
+## Normal Commitleri ve Merge Commitleri Ayırt Etmek
 
 Normal commit'leri yazılım geliştiriciler ince eleyip sık dokuyarak oluşturulurlar, diğer yandan Merge Commitler ise Git tarafından otomatik oluşturulurlar. Merge işlemi ile ilgili ayrıntıları daha sonradan incelemek isterseniz her iki branch'in commit tarihçesine ve commit çizelgesine bakmanız gerekir.
 
 ## Rebase ile değişiklikleri entegre etmek
 
-Bazı takımlar iki branch'i yukarıda anlattığımız otomatik merge commit'ler yerine **rebase** ile entegre etmeyi tercih edebilir. Rebase sonrasında projenizin iki farklı branch'i olduğuna dair herhangib bir tarihsel iz oluşmaz.
+Bazı takımlar iki branch'i yukarıda anlattığımız otomatik merge commit'ler yerine **rebase** ile entegre etmeyi tercih edebilir. Rebase sonrasında projenizin iki farklı branch'i olduğuna dair herhangi bir tarihsel iz oluşmaz.
 
-Gelin şimdi rebase işleminin nasıl yapıldığına bakalım. Örnek senaryomuzda Branch-B'deki değişiklikleri  Branch-A'ya entegre edeceğiz
+Gelin şimdi rebase işleminin nasıl yapıldığına bakalım. Örnek senaryomuzda Branch-B'deki değişiklikleri  Branch-A'ya entegre edeceğiz.
 Rebase işlemini **git rebase** komutunu aşağıdaki gibi kullanarak yapıyoruz.
 
 > **$ git rebase Branch-B**

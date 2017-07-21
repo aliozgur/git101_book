@@ -7,17 +7,17 @@ Gelin şimdi hep birlikte günlük çalışmanız sırasında kullanabileceğini
 
 Bu sırada web sitesinde bir güvenlik açığı tespit edildiğini bildiren bir email aldınız. Acil olarak bu güvenlik açığını gidermeniz için yapmakta olduğunuz çalışmayı bırakmanız ve bu durumu düzeltmeniz gerekiyor. Böyle bir durumda aşağıdaki adımları takip edebilirsiniz
 
-1. Aktif branch'inizi web sitenizin son stabil versiyonun bulunduğu **master** branch olarak değiştirdiniz
+1. Aktif branch'inizi web sitenizin son stabil versiyonunun bulunduğu **master** branch olarak değiştirdiniz.
 > **git checkout master ** komutunu kullandık
 
 2. Güvenlik açığını giderme çalışmanız için yeni bir branch oluşturdunuz.
 > * **git branch loginsorunu** komutunu kullanarak branch oluşturduk ve
 > * **git checkout loginsorunu** komutu ile bu branch'i aktif > hale getirdik
 
-3. Güvenlik açığını giderecek değişikliği tamamladınız, testlerinizi yaptınız ve bu değişikliği Staging Area'ya ekleyip sonrasında da commit ettiniz
+3. Güvenlik açığını giderecek değişikliği tamamladınız, testlerinizi yaptınız ve bu değişikliği Staging Area'ya ekleyip sonrasında da commit ettiniz.
 > * **git add login.xyz login.html login.css** ile değişiklikleri Staging Area'ya gönderdik
 > * **git commit -m "Özel karakter içeren kullanıcı adlarında ortaya çıkan güvenlik sorunu giderildi"** ile değişikliklerimizi commit ettik.
-4. **master** branch’imizi aktif hale getirdik
+4. **master** branch’imizi aktif hale getirdik.
 > **git checkout master** komutu ile
 
 5. Commit ettiğiniz değişikliği web sitenizin stabil versiyonunu içeren **master** branch’imize merge ettik.
