@@ -25,7 +25,7 @@ Bu seçenek ile commit işlemi sonrasında bir önceki commit işlemine dair bil
 
 ## Local Değişiklikleri Geri Almak
 
-Henüz commit etmediğimiz değişiklikliklere Local değişiklik denir. Bazen önceki halinden daha kötü olan kod yazabilirsiniz ve bu değişikliği geri almak isteyebilirsiniz. Bu gibi durumlarda değiştirdiğiniz halinden memnun olmadığınız dosyadaki değişiklikleri geri alıp dosyanın son commit edilmiş haline geri dönmek istediğinizde, önceki bölümlerde de sıkca kullandığımız, **git checkout** komutunu **--** seçeneği ile çalıştırmanız yeterli olacaktır.
+Henüz commit etmediğimiz değişikliklere Local değişiklik denir. Bazen önceki halinden daha kötü olan kod yazabilirsiniz ve bu değişikliği geri almak isteyebilirsiniz. Bu gibi durumlarda değiştirdiğiniz halinden memnun olmadığınız dosyadaki değişiklikleri geri alıp dosyanın son commit edilmiş haline geri dönmek istediğinizde, önceki bölümlerde de sıkca kullandığımız, **git checkout** komutunu **--** seçeneği ile çalıştırmanız yeterli olacaktır.
 
 >* **$ git checkout -- dosya1.md** veya
 >* **$ git checkout -- klasor/dosya2.md**
@@ -47,7 +47,7 @@ Hatalı bir düzenleme yaptığınızda (ki bu genelde test edilmeden yapılan c
 
 ![git revert](01_git_revert.jpg "git revert")
 
-Yukarıdaki ekran görüntüsünde ilk önce **git revert <hash>** komutunu çalıştırdık. Bu komutun en önemli parametresi geri almak istediğimiz commit'in hash değeri (hash'in ilk altı karakterini kullanabiliriz). Komutu çalıştırdıktan sonra değişiklik tarihçesini incelediğimizde git'in otomatik olarak bir commit oluşturduğunu ve bu commit'in bilgilerinde hangi değişikliğin geri alındığına dair ayrıntıların yer aldığını görüyoruz.
+Yukarıdaki ekran görüntüsünde ilk önce **git revert <hash>** komutunu çalıştırdık. Bu komutun en önemli parametresi geri almak istediğimiz commit'in hash değeri (hash'in ilk yedi karakterini kullanabiliriz). Komutu çalıştırdıktan sonra değişiklik tarihçesini incelediğimizde git'in otomatik olarak bir commit oluşturduğunu ve bu commit'in bilgilerinde hangi değişikliğin geri alındığına dair ayrıntıların yer aldığını görüyoruz.
 
 Değişiklikleri geri almak için kullanabileceğimiz diğer bir komut ise **git reset** komutu. Bu komut da herhangi bir bilginizi silmeden işlemi gerçekleştirir, ancak git revert komutundan farklı olarak otomatik yeni bir commit üretmeden değişikliğinizi geri almanızı sağlar.
 
@@ -56,7 +56,7 @@ Değişiklikleri geri almak için kullanabileceğimiz diğer bir komut ise **git
 Bu komut için de git revert komutunda olduğu gibi geri almak istediğimiz commit'in hash değerini veriyoruz. Kullandığımız diğer bir seçenek olan **--hard** seçeneği ise local tüm commitlerinizi silerek geri alma işleminin yapılmasına neden olur, bu nedenle --hard seçeneğini kulllanırken dikkatli olmalısınız. Local commit'lerinizin korunmasını istiyorsanız **--keep** komutunu kullanabilirsiniz.
 
 > **30 gün iade garantisi!** git reset komutu ile geri alma işlemi sonrasında geri aldığınız noktadan sonraki tüm değişiklikler tarihçeden silinecektir. Ancak git bu silinen bilgileri 30 gün kadar veritabanında tutmaya devam edecektir. Eğer yanlışlıkla geri alma işlemi yaptığınızı farkederseniz 30 gün içinde silinen herhangi bir commit'inizi geri alabilirsiniz.
-* [30 günlük süre nasıl değiştirilebiliri](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch07.html)
+* [30 günlük süre nasıl değiştirilebilir](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch07.html)
 * [Silinen commit hangi komutlar ile geri alınır](http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html)
 
 

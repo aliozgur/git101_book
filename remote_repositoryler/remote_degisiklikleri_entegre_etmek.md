@@ -7,7 +7,7 @@ Takım arkadaşlarınız kendi değişikliklerini tamamlayıp remote branch'de y
 Remote branch'deki değişiklikleri indirmek için **git fetch** komutunu kullanıyoruz. Git fetch komutuna geçilen *origin* değeri ise daha önceki bölümlerde gösterdiğimiz *remotes/origin/master* isimli remote branch bağlantısına referans vermek için kullanılır.
 > *origin* değeri **git fetch** komutunun bir parçası değil sadece bir parametre. Origin yerine daha önce local branchimiz ile bağlantısını/ilişkisini kurduğumuz herhangi bir remote branch'i gösteren bir değer olabilir.
 
-*git fetch* komutu ile remote branch'deki değişiklikleri indirdikten sonra ise **git log** komutunu kullanarak bu remote branch'deki değişiklikler ile ilgili bilgileri görebiliriz. (değişiklik tarihi, kimin yaptığı, değişen dosyalar ve commti sırasında girilen mesaj gibi)
+*git fetch* komutu ile remote branch'deki değişiklikleri indirdikten sonra ise **git log** komutunu kullanarak bu remote branch'deki değişiklikler ile ilgili bilgileri görebiliriz. (değişiklik tarihi, kimin yaptığı, değişen dosyalar ve commiti sırasında girilen mesaj gibi)
 
 Değişiklikleri inceledikten sonra bunları local branch'inize entegre etmeye karar verdiğimizde ise **git pull** komutunu kullanmamız gerekecek
 
