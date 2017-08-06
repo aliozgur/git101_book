@@ -26,7 +26,7 @@ Yeni oluşturduğumuz branch ile çalışmaya başlamadan önce gelin bir defa d
 Yukarıdaki ekran görüntüsünde de gördüğümüz üzere aktif olan **master** branch'imizde *dosya2.md* isimli dosyamızda henüz commit etmediğiniz bir değişiklik var. Bu dosyadaki değişikliğin yeni eklediğimiz branch'de yer almasını istemediğimizi ve henüz tam anlamıyla bitirilmediğini varsayalım. Bu durumda dosyadaki değişikliği commit mi etmeliyiz yoksa tamamen göz ardı mı etmeliyiz?
 
 <div style="padding:10px;border:1px solid #fcedd7;background-color:#fef9f1">
-<p style="color:darkgray">Versyon Kontrolünün Altın Kuralları</p>
+<p style="color:darkgray">Versiyon Kontrolünün Altın Kuralları</p>
 <p style="font-weight:bold">#4 Yarım Yamalak Değişiklikleri Asla Commit etmeyin </p>
 <p>
 Tam anlamıyla bitirmediğiniz ve test etmediğiniz bir değişikliği asla commit etmeyin. Üzerinde çalışacağınız değişiklikleri planlarken bu değişiklikleri mümkün olduğunca küçük parçalar halinde ele almaya özen gösterirseniz yaptığınız değişiklikleri kayıt altına almak için henüz tamamlanmamış değişiklikleri commit etmek zorunda kalmazsınız. Buna rağmen ara safhada kayıt altına almak istediğiniz değişiklikler olursa Git'in **Stash** özelliğini kullanabilirsiniz.

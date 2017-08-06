@@ -48,7 +48,7 @@ git log -n 5
 
 ## Sorular
 
-**Soru-1:** `git status` komutunun çıktısında verilen bilgiyi nasıl yorumlamamamız lazım?  
+**Soru-1:** `git status` komutunun çıktısında verilen bilgiyi nasıl yorumlamamız lazım?  
 **Soru-2:** `git log` komutunun çıktısında eklediğiniz dosyaya ilişkin herhangi bir bilgi görüyor musunuz?
 
 [&lt;&lt; Geri](Gun_02.md) \| [İleri &gt;&gt;](Gun_04.md)

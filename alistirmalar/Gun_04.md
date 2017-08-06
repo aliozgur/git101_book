@@ -30,7 +30,7 @@ cd <proje_kök_klasörü_yolu>
 
 git status
 ```
-**Soru:** ```git status``` komutunun sonucunda yeni eklediğiniz dosya yukarıda bahsedilen iki durumdan hangisindedir.
+**Soru:** ```git status``` komutunun sonucunda yeni eklediğiniz dosya yukarıda bahsedilen iki durumdan hangisindedir?
 
 ### Alıştırma - 2
 Uzak deponuzdan bilgisayarınıza klonladığınız proje deponuzun kök klasörü altında gun_04_02 isimli yeni bir klasör oluşturun ve aşağıdaki komutları komut satırı ara yüzünde çalıştırın
@@ -62,8 +62,8 @@ git status
 Checkout komutu birden fazla amaçla kullanılabilen komutlardan birisidir. Bunlar
 
 * Bir dosyadaki değişiklikleri iptal etmek 
-* Çalışma kopyanızdaki (Working Copy) değişiklikleri kaybetmeden projenizin herhangi bir commit'inin incelemek
-* Farklı bir daldı çalışma kopyanız olarak aktif hale getirmek
+* Çalışma kopyanızdaki (Working Copy) değişiklikleri kaybetmeden projenizin herhangi bir commit'ini incelemek
+* Farklı bir dalı çalışma kopyanız olarak aktif hale getirmek
  
 Bu bölümde bu komutun kullanımlarından birincisi ile ilgileniyoruz. Checkout komutu ile değiştirdiğimiz ancak henüz git add ile Staging Area'ya eklemediğimiz dosyalardaki değişiklikleri aşağıdaki komut şablonunun kullanarak iptal edebiliriz.
 

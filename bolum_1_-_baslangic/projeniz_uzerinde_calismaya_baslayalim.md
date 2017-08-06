@@ -67,7 +67,7 @@ Değişikliklerinizi **git add** ve **git rm** ile Staging Area'ya aldıktan son
 Yukarıdaki komutta yer alan **-m** parametresi ile yaptığınız değişiklikleri özetleyen bir mesajı da commit'inize ekleyebilirsiniz. Eğer birden fazla satırı olan bir commit mesajı gireceksiniz **-m** parametresini kaldırmanız yeterli olacaktır. Bu durumda 1.3 numaralı bölümde ayarladığınız editör açılır ve bu editöre mesajınızı istediğimiz uzunlukta girebilirsiniz.
 
 <div style="padding:10px;border:1px solid #fcedd7;background-color:#fef9f1">
-<p style="color:darkgray">Versyon Kontrolünün Altın Kuralları</p>
+<p style="color:darkgray">Versiyon Kontrolünün Altın Kuralları</p>
 <p style="font-weight:bold">#2 Anlamlı Commit Mesajları</p>
 <p>
 Commit işlemi sırasında yazacağınız bilgilendirici bir mesaj hem ekibinizdeki diğer kişilerin hem de daha sonra kendinizin yapılan değişikliği daha rahat ve hızlı anlamanızı sağlayacaktır. Mesajınıza kısa bir özet satırı yazdıktan sonra bir sonraki satırda da değişikliğin nedeni ve içeriği hakkında bilgi verebilirsiniz.

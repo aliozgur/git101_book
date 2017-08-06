@@ -27,6 +27,6 @@ Daha önce küçük bir girişim olarak Mercurial (bu da dağıtık bir versiyon
 [BitBucket Ana Sayfa](https://bitbucket.org/)
 
 ## Visual Studio Team Services
-Microsoft tarafından sunulan bu servis ile 5 kullanıcıya kadar sınırsız sayıda Git Repository'si oluşturabilirsiniz. Daha büyük takımlarınız için yapacağınız aylık ödemelerle de bu servisten yararlanabilirsiniz. Ayırca Visual Studio Team Services'de, Git'in yanı sıra Microsoft'un kendi versiyon kontrol sistemi olan Team Foundation Server (TFS) ile de kodlarınızı versiyonlayabilirsiniz.
+Microsoft tarafından sunulan bu servis ile 5 kullanıcıya kadar sınırsız sayıda Git Repository'si oluşturabilirsiniz. Daha büyük takımlarınız için yapacağınız aylık ödemelerle de bu servisten yararlanabilirsiniz. Ayrıca Visual Studio Team Services'de, Git'in yanı sıra Microsoft'un kendi versiyon kontrol sistemi olan Team Foundation Server (TFS) ile de kodlarınızı versiyonlayabilirsiniz.
 
 [Visual Studio Team Services Ana Sayfa](https://www.visualstudio.com/team-services/)
