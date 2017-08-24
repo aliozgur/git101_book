@@ -6,19 +6,23 @@ Bu sistemleri kullanarak herhangi bir anda üzerinde çalıştığınız dosyala
 
 > Dosyaların kayıt altına alınmış herhangi bir andaki hallerine **versiyon** diyoruz
 
-
 ![Versiyon Kontrolü Nedir?](what-is-vcs.jpg "Versiyon Kontrolü Nedir?")
 
+[_Görsel : Atlassian Git Workflows sayfasından alıntı_](https://www.atlassian.com/git/workflows "Git Workflows")
 
-*[Görsel : Atlassian Git Workflows sayfasından alıntı](https://www.atlassian.com/git/workflows "Git Workflows")*
-
-Versiyon kontrolünü, kullandığınız programlama dili, yardımcı programlama kütüphaneleri (framework), dosya tipi veya işletim sisteminden bağımsız bir yaklaşım olarak düşünmelisiniz. Çünkü versiyon kontrolü
-
+Versiyon kontrolünü, kullandığınız programlama dili, yardımcı programlama kütüphaneleri \(framework\), dosya tipi veya işletim sisteminden bağımsız bir yaklaşım olarak düşünmelisiniz. Çünkü versiyon kontrolü
 
 * HTML dosyalar için kullanılabileceği gibi, mimari tasarım amaçlı proje dosyaları ve iPhone uygulaması kaynak kodunuz için de kullanılabilir
 
-* Dosyalarınız üzerinde çalışırken hangi işletim sistemini veya hangi programları kullandığınız ile ilgilenmez (Sublime Text, Notepad, Visual Studio, Word, AutoCAD)
+* Dosyalarınız üzerinde çalışırken hangi işletim sistemini veya hangi programları kullandığınız ile ilgilenmez \(Sublime Text, Notepad, Visual Studio, Word, AutoCAD\)
 
 > Ben de bu kitabın versiyon kontrolü için **Git** kullanıyorum
 
 Versiyon kontrol sistemleri en basit anlamda **dosyalarınızdaki değişikliklerin tarihçesini takip edip kayıt altında tutan** sistemlerdir. Bu nedenle versiyon kontrol sistemlerini yedekleme veya diğer yazılım geliştirme araçları ile karşılaştırmak doğru olmaz.
+
+---
+
+#### [**Kitabın basılı halini online olarak da satın alabilirsiniz**](https://www.dikeyeksen.com/products/git-ile-versiyon-kontrolu)
+
+
+
