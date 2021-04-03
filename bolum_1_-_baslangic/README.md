@@ -1,3 +1,7 @@
+---
+description: Ali Özgür
+---
+
 # Versiyon Kontrolüne Giriş
 
 Bu bölümde aşağıdaki konuları ele alacağız
@@ -9,3 +13,4 @@ Bu bölümde aşağıdaki konuları ele alacağız
 * Local Bir Proje Oluşturmak
 * Remote Bir Proje Oluşturmak
 * Projemiz Üzerinde Çalışmaya Başlayalım
+

@@ -1,3 +1,7 @@
+---
+description: Ali Özgür
+---
+
 # Git Araç ve Servisleri
 
 Bu bölümde aşağıdaki konulardan bahsedeceğiz
@@ -6,3 +10,4 @@ Bu bölümde aşağıdaki konulardan bahsedeceğiz
 * Git ile kullanılabilecek diff/merge araçları
 * Git servisleri
 * Kaynaklar ve Referanslar
+

@@ -1,3 +1,7 @@
+---
+description: Ali Özgür
+---
+
 # Kısa Git Tarihçesi
 
 Git 2005 yılında, başta Linus Torvalds olmak üzere Linux çekirdeğini de kodlayan ekip tarafından Linux kaynak kodunu versiyon kontrolü altında tutmak ve kendi iş akışlarını düzenlemek için geliştirilmiştir
@@ -8,8 +12,9 @@ Linux ekibi BitKeeper ile olan deneyimlerini de dikkate alarak öncelikli olarak
 
 * Hızlı
 * Kullanımı kolay
-* Lineer olmayan geliştirme iş akışına uygun (branching)
+* Lineer olmayan geliştirme iş akışına uygun \(branching\)
 * Tamamen dağıtık
 * Büyük projeleri destekleyebilecek
 
 2005 yılından bugüne Git gelişmeye devam ediyor. Git'e yeni eklenen özelliklere rağmen Git bugün bile yukarıda bahsettiğim öncelikli kriterlerden taviz vermeden milyonlarca yazılım geliştiricinin hayatını kolaylaştırmaya devam ediyor.
+

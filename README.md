@@ -1,10 +1,12 @@
-# Türkçe Git 101
+---
+description: Ali Özgür
+---
+
+# Introduction
 
 ## Önsöz
 
-#### [**Kitabın basılı halini online olarak da satın alabilirsiniz**](https://www.dikeyeksen.com/products/git-ile-versiyon-kontrolu)
-
----
+### [**Kitabın basılı halini online olarak da satın alabilirsiniz**](https://www.dikeyeksen.com/products/git-ile-versiyon-kontrolu)
 
 Bu kitapta son 4-5 yılda yazılım geliştiricilerin ve yazılım şirketlerinin vazgeçilmez araçlarından biri olan ve benim de bir yazılım geliştirici olarak çok başarılı bulduğum Git Dağıtık Versiyon Kontrol Sistemini \(Distributed Version Control System\) örnekler ile ele alarak size tanıtmaya çalışacağım.
 
@@ -21,8 +23,7 @@ Bu kitapta yer verdiğimiz giriş ve temel seviyedeki konuları iyice kavrayıp 
 Kitaptaki örneklerimizi Terminal \(komut satırı veya command line olarak da tabir edilen\) üzerinden Apple OSX ve Windows işletim sistemleri üzerinde oluşturacağız. Bu kaynağın oluşturulduğu sırada kullanılan OSX ve Git sürüm bilgileri şöyleydi
 
 * OSX 10.12.3 \(Sierra\)
-
-* Git  2.9.3 \(Apple Git-75\)
+* Git 2.9.3 \(Apple Git-75\)
 
 Windows tarafında ise sürüm bilgileri şu şekilde
 
